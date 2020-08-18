@@ -1,6 +1,11 @@
+body {
+  color: #33121C;
+}
+
 /*Navbar*/
-.navbar {
-  border-bottom: 2px solid #F5D5E1;
+.navbar{
+  height: 76px;
+  z-index: 999;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -10,4 +15,51 @@
 .navbar-light .navbar-nav .nav-link:hover{
   padding-bottom:6px;
   border-bottom: 2px solid #781031;
+}
+
+/*Jumbotron*/
+#hero {
+  height: calc(100% - 76px);
+  position: relative;
+  top: 5%;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.left-border-title{
+  position: relative;
+  left: -6px;
+}
+
+#title-hi {
+  display: block;
+}
+
+.jumbotron h1 {
+  color: #781031;
+}
+
+.left-border-line {
+  border-left: 2px solid  #781031;
+  padding-left: 30px; 
+}
+
+.btn{
+  border-radius: 19px;
+  background-color: #781031;
+  border: 2px solid #781031;
+  color: #F5D5E1;
+}
+
+.btn:hover{
+  background-color: #33121C;
+  border: 2px solid #33121C;
+  color: #F5D5E1;
+}
+
+.btn-light {
+  background-color: white;
+  color:  #781031;
 }
