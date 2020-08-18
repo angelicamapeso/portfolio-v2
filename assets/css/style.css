@@ -1,3 +1,13 @@
-body {
-  border: 3px solid red;
+/*Navbar*/
+.navbar {
+  border-bottom: 2px solid #F5D5E1;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #781031;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  padding-bottom:6px;
+  border-bottom: 2px solid #781031;
 }
