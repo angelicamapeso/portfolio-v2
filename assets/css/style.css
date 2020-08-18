@@ -29,12 +29,6 @@ body {
   color: #F5D5E1;
 }
 
-.btn-light {
-  background-color: white;
-  color:  #781031;
-}
-
-
 /*Navbar*/
 .navbar {
   border-bottom: 1px solid lightgray;
