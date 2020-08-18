@@ -20,6 +20,9 @@ body {
 /*Jumbotron*/
 #hero {
   height: calc(100% - 76px);
+}
+
+#hero .container {
   position: relative;
   top: 5%;
 }
