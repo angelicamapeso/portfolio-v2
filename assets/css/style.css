@@ -68,16 +68,27 @@ body {
   color: #781031;
 }
 
-/*Featured project section
+/*Featured project section*/
+
+#featured-projects{
+  background-color:#F5D5E1;
+}
+
+#featured-projects .container{
+  position: relative;
+  top: -40px;
+}
 
 /*cards*/
 .card {
   border: none;
+  background-color: transparent;
 }
 
 .card-img, 
 .card-img-top {
   border-radius: calc(0.25rem - 1px);
 }
+
 
 
