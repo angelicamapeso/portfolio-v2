@@ -29,16 +29,15 @@ body {
   color: #F5D5E1;
 }
 
-.light-button {
+.btn-light {
   background-color: white;
   color:  #781031;
 }
 
 
 /*Navbar*/
-.navbar{
-  height: 76px;
-  z-index: 999;
+.navbar {
+  border-bottom: 1px solid lightgray;
 }
 
 .navbar-light .navbar-nav .nav-link {
