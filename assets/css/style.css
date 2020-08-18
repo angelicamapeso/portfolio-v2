@@ -71,7 +71,7 @@ body {
 /*Featured project section*/
 
 #featured-projects{
-  background-color:#F5D5E1;
+  background-color:#d8d8d8;
 }
 
 #featured-projects .container{
@@ -83,12 +83,25 @@ body {
 .card {
   border: none;
   background-color: transparent;
+  margin-bottom: 3rem;
 }
 
+/*card image*/
 .card-img, 
 .card-img-top {
   border-radius: calc(0.25rem - 1px);
 }
+
+.card-img-top {
+  box-shadow: 0 4px 5px 0 gray;
+  transition: 0.5s ease;
+}
+
+.card-img-top:hover{
+  transform: scale(1.03);
+}
+
+
 
 
 
