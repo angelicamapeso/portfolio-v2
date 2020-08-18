@@ -68,4 +68,16 @@ body {
   color: #781031;
 }
 
+/*Featured project section
+
+/*cards*/
+.card {
+  border: none;
+}
+
+.card-img, 
+.card-img-top {
+  border-radius: calc(0.25rem - 1px);
+}
+
 
