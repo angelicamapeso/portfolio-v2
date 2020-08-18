@@ -2,6 +2,39 @@ body {
   color: #33121C;
 }
 
+/*Element styles*/
+
+/*Left-line styles*/
+.left-border-title{
+  position: relative;
+  left: -6px;
+}
+
+.left-border-line {
+  border-left: 2px solid  #781031;
+  padding-left: 30px; 
+}
+
+/*Buttons*/
+.btn{
+  border-radius: 19px;
+  background-color: #781031;
+  border: 2px solid #781031;
+  color: #F5D5E1;
+}
+
+.btn:hover{
+  background-color: #33121C;
+  border: 2px solid #33121C;
+  color: #F5D5E1;
+}
+
+.light-button {
+  background-color: white;
+  color:  #781031;
+}
+
+
 /*Navbar*/
 .navbar{
   height: 76px;
@@ -17,23 +50,15 @@ body {
   border-bottom: 2px solid #781031;
 }
 
-/*Jumbotron*/
+/*Hero section*/
 #hero {
-  height: calc(100% - 76px);
-}
-
-#hero .container {
-  position: relative;
-  top: 5%;
+  background: url("../images/logo-light.svg") no-repeat;
+  background-position: 85% 5%;
+  background-size: 30% auto;
 }
 
 .jumbotron {
-  background-color: white;
-}
-
-.left-border-title{
-  position: relative;
-  left: -6px;
+  background-color:transparent;
 }
 
 #title-hi {
@@ -44,25 +69,4 @@ body {
   color: #781031;
 }
 
-.left-border-line {
-  border-left: 2px solid  #781031;
-  padding-left: 30px; 
-}
 
-.btn{
-  border-radius: 19px;
-  background-color: #781031;
-  border: 2px solid #781031;
-  color: #F5D5E1;
-}
-
-.btn:hover{
-  background-color: #33121C;
-  border: 2px solid #33121C;
-  color: #F5D5E1;
-}
-
-.btn-light {
-  background-color: white;
-  color:  #781031;
-}
