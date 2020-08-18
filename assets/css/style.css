@@ -101,6 +101,26 @@ body {
   transform: scale(1.03);
 }
 
+/*footer*/
+.footer {
+  background-color: #781031; 
+  color: #F5D5E1;
+}
+
+.footer a {
+  color: #F5D5E1;
+}
+
+.footer a:hover{
+  text-decoration: none;
+  border-bottom: 2px solid #F5D5E1;
+}
+
+.footer a:active{
+  color: lightgray;
+}
+
+
 
 
 
