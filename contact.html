@@ -52,15 +52,30 @@
   <!--Main-->
   <main>
     <!--Featured Projects section-->
-    <section id="portfolio" class="pb-4">
+    <section id="portfolio" class="pb-4 mb-4">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col col-lg-8">
             <!--Title-->
-            <h1 class="mb-4 display-4 left-border-title">Contact</h1>
-            <div class="left-border-line">
-              
-            </div>
+            <h1 class="display-4 left-border-title mb-4">Contact</h1>
+
+            <!--Form-->
+            <form class="left-border-line">
+              <div class="form-group w-75">
+                <label for="emailInput">Email address</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="example@email.com">
+              </div>
+              <div class="form-group w-75">
+                <label for="nameInput">Name</label>
+                <input type="text" class="form-control" id="nameInput">
+              </div>
+              <div class="form-group">
+                <label for="messageInput">Message</label>
+                <textarea type="text" class="form-control" id="messageInput" rows="5"></textarea>
+              </div>
+              <p class="lead mt-5">Thanks for wanting to reach out!</p>
+              <button class="btn btn-dark" type="submit">Send <i class="fa fa-paper-plane ml-2" aria-hidden="true"></i></button>
+            </form>
           </div>
         </div>
       </div>
@@ -72,7 +87,7 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <a href="conttact.html" class="mr-3 mb-0 h5">Contact</a>
+          <a href="contact.html" class="mr-3 mb-0 h5">Contact</a>
         </div>
         <div class="col-auto">
           <a href="https://github.com/angelicamapeso" class="mr-3 h4" aria-label="Github"><i class="fa fa-github" aria-hidden="true"></i></a>
