@@ -1,4 +1,4 @@
-# Bootcamp - My Portfolio Site 
+# Bootcamp - Homework 2: My Portfolio Site 
 A repository for my portfolio site, which is an ongoing project throughout Bootcamp. 
 
 ## Purpose
