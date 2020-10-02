@@ -95,6 +95,17 @@ body {
   transform: scale(1.03);
 }
 
+.card a {
+  color: #941B41
+}
+
+.card a:hover {
+  color: #33121C;
+}
+
+.card .fa {
+  margin-right: 0.5em;
+}
 /*footer*/
 .footer {
   background-color: #781031; 
