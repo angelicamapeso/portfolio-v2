@@ -105,15 +105,15 @@ body {
   margin-top: auto;
 }
 
-.card a {
+.icon-link {
   color: #941B41
 }
 
-.card a:hover {
+.icon-link:hover {
   color: #33121C;
 }
 
-.card .fa {
+.icon-link .fa {
   margin-right: 0.5em;
 }
 /*footer*/
