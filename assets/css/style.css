@@ -135,6 +135,21 @@ body {
   color: lightgray;
 }
 
+/*About page*/
+#about-img {
+  width: 100%;
+  border-radius: 50%;
+  background-image: url('./../images/headshot_0\,25x.jpg');
+  background-position: 30% 50%;
+  background-size: cover;
+}
+
+#about-img:after {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
+}
+
 
 
 
