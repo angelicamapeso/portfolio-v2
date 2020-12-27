@@ -1,32 +1,32 @@
 body {
-  color: #33121C;
+  color: #33121c;
 }
 
 /*Element styles*/
 
 /*Left-line styles*/
-.left-border-title{
+.left-border-title {
   position: relative;
   left: -6px;
 }
 
 .left-border-line {
-  border-left: 2px solid  #781031;
-  padding-left: 30px; 
+  border-left: 2px solid #781031;
+  padding-left: 30px;
 }
 
 /*Buttons*/
-.btn{
+.btn {
   border-radius: 19px;
   background-color: #781031;
   border: 2px solid #781031;
-  color: #F5D5E1;
+  color: #f5d5e1;
 }
 
-.btn:hover{
-  background-color: #33121C;
-  border: 2px solid #33121C;
-  color: #F5D5E1;
+.btn:hover {
+  background-color: #33121c;
+  border: 2px solid #33121c;
+  color: #f5d5e1;
 }
 
 /*Navbar*/
@@ -38,8 +38,8 @@ body {
   color: #781031;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
-  padding-bottom:6px;
+.navbar-light .navbar-nav .nav-link:hover {
+  padding-bottom: 6px;
   border-bottom: 2px solid #781031;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .jumbotron {
-  background-color:transparent;
+  background-color: transparent;
 }
 
 #title-hi {
@@ -64,11 +64,11 @@ body {
 
 /*Featured project section*/
 
-#featured-projects{
-  background-color:#d8d8d8;
+#featured-projects {
+  background-color: #d8d8d8;
 }
 
-#featured-projects .container{
+#featured-projects .container {
   position: relative;
   top: -35px;
 }
@@ -87,7 +87,7 @@ body {
 }
 
 /*card image*/
-.card-img, 
+.card-img,
 .card-img-top {
   border-radius: calc(0.25rem - 1px);
 }
@@ -97,7 +97,7 @@ body {
   transition: 0.5s ease;
 }
 
-.card-img-top:hover{
+.card-img-top:hover {
   transform: scale(1.03);
 }
 
@@ -106,11 +106,11 @@ body {
 }
 
 .icon-link {
-  color: #941B41
+  color: #941b41;
 }
 
 .icon-link:hover {
-  color: #33121C;
+  color: #33121c;
 }
 
 .icon-link .fa {
@@ -118,20 +118,20 @@ body {
 }
 /*footer*/
 .footer {
-  background-color: #781031; 
-  color: #F5D5E1;
+  background-color: #781031;
+  color: #f5d5e1;
 }
 
 .footer a {
-  color: #F5D5E1;
+  color: #f5d5e1;
 }
 
-.footer a:hover{
+.footer a:hover {
   text-decoration: none;
-  border-bottom: 2px solid #F5D5E1;
+  border-bottom: 2px solid #f5d5e1;
 }
 
-.footer a:active{
+.footer a:active {
   color: lightgray;
 }
 
@@ -139,7 +139,7 @@ body {
 #about-img {
   width: 100%;
   border-radius: 50%;
-  background-image: url('./../images/headshot_0\,25x.jpg');
+  background-image: url("./../images/headshot_0\,25x.jpg");
   background-position: 30% 50%;
   background-size: cover;
 }
@@ -150,8 +150,17 @@ body {
   display: block;
 }
 
+.text-list {
+  list-style: none;
+  padding-left: 0.5rem;
+}
 
-
-
-
-
+.text-list li::before {
+  content: "";
+  display: inline-block;
+  margin-right: 1rem;
+  width: 10px;
+  height: 10px;
+  background-image: url("./../images/icons/chevron-thin-right.svg");
+  background-size: cover;
+}
