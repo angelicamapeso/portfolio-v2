@@ -168,3 +168,16 @@ body {
   background-image: url("./../images/icons/chevron-thin-right.svg");
   background-size: cover;
 }
+
+/*Project page*/
+.display-row {
+  position: relative;
+  background-color: lightgray;
+}
+
+.display-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: -1rem;
+}
