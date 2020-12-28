@@ -101,6 +101,10 @@ body {
   transform: scale(1.03);
 }
 
+.card-link {
+  display: block;
+}
+
 .repo-link {
   margin-top: auto;
 }
