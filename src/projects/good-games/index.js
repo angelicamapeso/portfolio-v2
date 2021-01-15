@@ -4,6 +4,7 @@ import iconImg from "./goodGames_icon.png";
 
 export const goodGames = {
   title: "Good Games",
+  infoPage: "/good-games",
   url: "https://game-helper.herokuapp.com/",
   repo: "https://github.com/LouisYS-Carleton/Game-Helper",
   tagline: "An all-purpose video game tracker",

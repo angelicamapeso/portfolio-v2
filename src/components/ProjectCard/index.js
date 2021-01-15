@@ -6,7 +6,10 @@ function ProjectCard(props) {
   return (
     <Col xs={12} sm={6} lg={4}>
       <Card>
-        <a href="./projects/eat-local.html" aria-label="Eat local website">
+        <a
+          href={"/portfolio" + props.project.infoPage}
+          aria-label={props.project.title + " website"}
+        >
           <Card.Img
             variant="top"
             src={props.project.img.icon}
