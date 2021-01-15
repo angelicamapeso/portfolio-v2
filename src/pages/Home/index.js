@@ -5,7 +5,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import Button from "react-bootstrap/Button";
 import ProjectCard from "../../components/ProjectCard";
 
 import * as projects from "../../projects";
@@ -36,8 +35,8 @@ export default function Home() {
                     <p className="mb-5 h3 font-weight-light">
                       I'm an aspiring web developer and web designer.
                     </p>
-                    <Link to="/about">
-                      <Button variant="dark">Learn more about me</Button>
+                    <Link to="/about" className="btn btn-dark">
+                      Learn more about me
                     </Link>
                   </div>
                 </Jumbotron>
