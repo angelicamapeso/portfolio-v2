@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import * as projects from "../../projects";
 import ProjectHeader from "../../components/ProjectHeader";
+import ProjectBody from "../../components/ProjectBody";
 
 function ProjectPage() {
   const { name } = useParams();
@@ -13,6 +14,7 @@ function ProjectPage() {
   return (
     <>
       <ProjectHeader project={currentProject} />
+      <ProjectBody project={currentProject} />
     </>
   );
 }
