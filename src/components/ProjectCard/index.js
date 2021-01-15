@@ -20,13 +20,14 @@ function ProjectCard(props) {
           <div className="mt-auto d-flex flex-column justify-content-end">
             <p className="mb-0">
               <a href={props.project.url} className="h5 icon-link">
-                <i className="fa fa-link" aria-hidden="true"></i>Visit site
+                <i className="fas fa-link mr-2" aria-hidden="true"></i>Visit
+                site
               </a>
             </p>
             <p className="mb-0">
               <a href={props.project.repo} className="h5 icon-link">
-                <i className="fa fa-github" aria-hidden="true"></i>View source
-                code
+                <i className="fab fa-github mr-2" aria-hidden="true"></i>View
+                source code
               </a>
             </p>
           </div>
