@@ -20,20 +20,20 @@ export default function Home() {
           content="Hi, I'm Angelica Mapeso, an aspiring full-stack developer."
         />
       </Helmet>
-      <main class="d-flex flex-column flex-grow-1">
+      <main className="d-flex flex-column flex-grow-1">
         <section id="hero">
           <Container>
             <Row>
               <Col sm>
                 <Jumbotron className="px-0">
-                  <h1 class="display-4 left-border-title">
-                    <span id="title-hi" class="display-3">
+                  <h1 className="display-4 left-border-title">
+                    <span id="title-hi" className="display-3">
                       Hi,{" "}
                     </span>
                     My name is Angelica&nbsp;Mapeso.
                   </h1>
-                  <div class="left-border-line">
-                    <p class="mb-5 h3 font-weight-light">
+                  <div className="left-border-line">
+                    <p className="mb-5 h3 font-weight-light">
                       I'm an aspiring web developer and web designer.
                     </p>
                     <Link to="/about">
