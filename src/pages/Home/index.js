@@ -8,6 +8,8 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import ProjectCard from "../../components/ProjectCard";
 
+import * as projects from "../../projects";
+
 export default function Home() {
   return (
     <>
