@@ -45,6 +45,14 @@ export default function Home() {
             </Row>
           </Container>
         </section>
+
+        <section id="featured-projects" className="pb-4 flex-grow-1">
+          <Container>
+            <Row>
+              <ProjectCard project={projects.goodGames} />
+            </Row>
+          </Container>
+        </section>
       </main>
     </>
   );
