@@ -1,0 +1,179 @@
+body {
+  color: #33121c;
+}
+
+/*Element styles*/
+
+/*Left-line styles*/
+.left-border-title {
+  position: relative;
+  left: -6px;
+}
+
+.left-border-line {
+  border-left: 2px solid #781031;
+  padding-left: 30px;
+}
+
+/*Buttons*/
+.btn {
+  border-radius: 19px;
+  background-color: #781031;
+  border: 2px solid #781031;
+  color: #f5d5e1;
+}
+
+.btn:hover {
+  background-color: #33121c;
+  border: 2px solid #33121c;
+  color: #f5d5e1;
+}
+
+/*Navbar*/
+.navbar {
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #781031;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #781031;
+}
+
+/*Hero section*/
+#hero {
+  background: url("./img/logo-light.svg") no-repeat;
+  background-position: 85% 5%;
+  background-size: 30% auto;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+#title-hi {
+  display: block;
+}
+
+.jumbotron h1 {
+  color: #781031;
+}
+
+/*Featured project section*/
+
+#featured-projects {
+  background-color: #d8d8d8;
+}
+
+#featured-projects .container {
+  position: relative;
+  top: -35px;
+}
+
+/*cards*/
+.card {
+  border: none;
+  background-color: transparent;
+  padding-bottom: 3rem;
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/*card image*/
+.card-img,
+.card-img-top {
+  border-radius: calc(0.25rem - 1px);
+}
+
+.card-img-top {
+  box-shadow: 0 4px 5px 0 gray;
+  transition: 0.5s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.03);
+}
+
+.card-link {
+  display: block;
+}
+
+.icon-link {
+  color: #941b41;
+}
+
+.icon-link:hover {
+  color: #33121c;
+}
+
+.icon-link .fa {
+  margin-right: 0.5em;
+}
+/*footer*/
+.footer {
+  background-color: #781031;
+  color: #f5d5e1;
+}
+
+.footer a {
+  color: #f5d5e1;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #f5d5e1;
+}
+
+.footer a:active {
+  color: lightgray;
+}
+
+/*About page*/
+#about-img {
+  width: 100%;
+  border-radius: 50%;
+  background-image: url("./img/headshot_25x.jpg");
+  background-position: 30% 50%;
+  background-size: cover;
+}
+
+#about-img:after {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
+}
+
+.text-list {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.text-list li::before {
+  content: "";
+  display: inline-block;
+  margin-right: 1rem;
+  width: 10px;
+  height: 10px;
+  background-image: url("./img/chevron-thin-right.svg");
+  background-size: cover;
+}
+
+/*Project page*/
+.display-row {
+  position: relative;
+  background-color: lightgray;
+}
+
+.display-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: -1rem;
+}
