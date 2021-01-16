@@ -8,7 +8,7 @@ function Page({ title, description, className, children }) {
         <title>Angelica Mapeso | {title}</title>
         <meta name="description" content={description} />
       </Helmet>
-      <main className={className}>{children}</main>
+      <main className={"flex-grow-1 " + (className || "")}>{children}</main>
     </>
   );
 }

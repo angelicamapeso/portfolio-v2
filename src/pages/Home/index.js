@@ -15,7 +15,7 @@ export default function Home() {
       <Page
         title="Home"
         description="Hi, I'm Angelica Mapeso, an aspiring full-stack developer."
-        className="d-flex flex-column flex-grow-1"
+        className="d-flex flex-column"
       >
         <section id="hero">
           <Container>
