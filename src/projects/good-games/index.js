@@ -68,7 +68,8 @@ export const goodGames = {
         },
         {
           name: "Bootstrap 4",
-          link: "https://www.npmjs.com/package/express-handlebars",
+          link:
+            "https://getbootstrap.com/docs/4.5/getting-started/introduction/",
         },
         {
           name: "Intro.js",
