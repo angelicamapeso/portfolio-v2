@@ -35,7 +35,7 @@ export const goodGames = {
   ),
   lists: [
     {
-      icon: "fa fa-users",
+      icon: "fas fa-users",
       title: "Team Members",
       items: [
         {
@@ -49,7 +49,7 @@ export const goodGames = {
       ],
     },
     {
-      icon: "fa fa-paper-plane",
+      icon: "fas fa-paper-plane",
       title: "API",
       items: [
         {
@@ -59,7 +59,7 @@ export const goodGames = {
       ],
     },
     {
-      icon: "fa fa-paper-plane",
+      icon: "fas fa-desktop",
       title: "Front-End",
       items: [
         {
@@ -77,8 +77,8 @@ export const goodGames = {
       ],
     },
     {
-      icon: "fa fa-paper-plane",
-      title: "Front-End",
+      icon: "fas fa-server",
+      title: "Back-End",
       items: [
         {
           name: "Axios",

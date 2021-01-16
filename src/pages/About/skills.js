@@ -1,6 +1,6 @@
 export const skills = [
   {
-    icon: "fa fa-desktop",
+    icon: "fas fa-desktop",
     title: "Front-End Skills",
     items: [
       {
@@ -27,7 +27,7 @@ export const skills = [
     ],
   },
   {
-    icon: "fa fa-desktop",
+    icon: "fas fa-server",
     title: "Back-End Skills",
     items: [
       {

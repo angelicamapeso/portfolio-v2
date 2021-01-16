@@ -77,7 +77,7 @@ function Contact() {
                   >
                     Send
                     <i
-                      className="fa fa-paper-plane ml-2"
+                      className="fas fa-paper-plane ml-2"
                       aria-hidden="true"
                     ></i>
                   </Button>
@@ -99,7 +99,7 @@ function Contact() {
                     <ListGroup.Item>
                       <p className="h5 font-weight-normal mb-0">
                         <a href="tel:647-455-5788" className="icon-link">
-                          <i className="fa fa-phone" aria-hidden="true"></i>
+                          <i className="fas fa-phone" aria-hidden="true"></i>
                           (647) 455-5788
                         </a>
                       </p>
@@ -110,7 +110,7 @@ function Contact() {
                           href="mailto:angelica.mapeso@gmail.com"
                           className="icon-link"
                         >
-                          <i className="fa fa-envelope" aria-hidden="true"></i>
+                          <i className="fas fa-envelope" aria-hidden="true"></i>
                           angelica.mapeso@gmail.com
                         </a>
                       </p>

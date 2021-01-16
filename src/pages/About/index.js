@@ -58,13 +58,16 @@ function About() {
               </Row>
               <p className="mb-5">
                 <a href={resume} className="icon-link">
-                  <i className="fa fa-file-pdf-o" aria-hidden="true"></i>
+                  <i className="far fa-file-pdf" aria-hidden="true"></i>
                   View my Resume for more information
                 </a>
               </p>
               <a className="btn btn-dark" href="contact.html" role="button">
-                Let's get in touch{" "}
-                <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+                Let's get in touch
+                <i
+                  className="fas fa-long-arrow-alt-right ml-2"
+                  aria-hidden="true"
+                ></i>
               </a>
             </div>
           </Col>
