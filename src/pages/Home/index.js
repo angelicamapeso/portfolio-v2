@@ -24,7 +24,7 @@ export default function Home() {
                 <Jumbotron className="px-0">
                   <h1 className="display-4 left-border-title">
                     <span id="title-hi" className="display-3">
-                      Hi,{" "}
+                      Hi,
                     </span>
                     My name is Angelica Mapeso.
                   </h1>
