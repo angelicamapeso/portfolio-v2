@@ -14,7 +14,7 @@ function ProjectBody(props) {
               About the project
             </h2>
             <div className="left-border-line">
-              <Row>
+              <Row className="mb-5">
                 <Col>{props.project.description}</Col>
               </Row>
               <Row>
