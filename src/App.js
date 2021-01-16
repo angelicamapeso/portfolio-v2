@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 import ProjectPage from "./pages/ProjectPage";
 
 function App() {
@@ -14,9 +15,7 @@ function App() {
             <h1>Portfolio</h1>
           </Route>
           <Route path="/about" component={About} />
-          <Route path="/contact">
-            <h1>Contact</h1>
-          </Route>
+          <Route path="/contact" component={Contact} />
           <Route path="/portfolio/:name" component={ProjectPage}></Route>
         </Switch>
       </Router>
