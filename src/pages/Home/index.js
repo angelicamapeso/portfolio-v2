@@ -1,6 +1,6 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import Page from "../../components/Page";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -12,14 +12,11 @@ import * as projects from "../../projects";
 export default function Home() {
   return (
     <>
-      <Helmet>
-        <title>Angelica Mapeso | Home</title>
-        <meta
-          name="description"
-          content="Hi, I'm Angelica Mapeso, an aspiring full-stack developer."
-        />
-      </Helmet>
-      <main className="d-flex flex-column flex-grow-1">
+      <Page
+        title="Home"
+        description="Hi, I'm Angelica Mapeso, an aspiring full-stack developer."
+        className="d-flex flex-column flex-grow-1"
+      >
         <section id="hero">
           <Container>
             <Row>
@@ -52,7 +49,7 @@ export default function Home() {
             </Row>
           </Container>
         </section>
-      </main>
+      </Page>
     </>
   );
 }
