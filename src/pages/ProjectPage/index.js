@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Helmet from "react-helmet";
+import Page from "../../components/Page";
 import * as projects from "../../projects";
 import ProjectHeader from "../../components/ProjectHeader";
 import ProjectBody from "../../components/ProjectBody";
@@ -13,14 +13,10 @@ function ProjectPage() {
   );
 
   return (
-    <>
-      <Helmet>
-        <title>Angelica Mapeso | {currentProject.title}</title>
-        <meta name="description" content={currentProject.tagline} />
-      </Helmet>
+    <Page title={currentProject.title} description={currentProject.tagline}>
       <ProjectHeader project={currentProject} />
       <ProjectBody project={currentProject} />
-    </>
+    </Page>
   );
 }
 
