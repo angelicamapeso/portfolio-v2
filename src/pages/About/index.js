@@ -66,7 +66,7 @@ function About() {
         <title>Angelica Mapeso | About</title>
         <meta name="description" content="Get to know me a little bit better" />
       </Helmet>
-      <section id="portfolio" className="pb-4">
+      <section className="pb-4">
         <Container>
           <Row>
             <Col>
