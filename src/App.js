@@ -18,7 +18,7 @@ function App() {
           </Route>
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route path="/portfolio/:name" component={ProjectPage}></Route>
+          <Route path="/portfolio/:name" component={ProjectPage} />
         </Switch>
       </Router>
     </>
