@@ -87,7 +87,7 @@ export const goodGames = {
         },
         {
           name: "Bcrypt",
-          link: "https://www.npmjs.com/package/axios",
+          link: "https://www.npmjs.com/package/bcrypt",
         },
         {
           name: "Express-session",
