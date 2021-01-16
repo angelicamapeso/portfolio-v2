@@ -10,6 +10,7 @@ import ProjectCard from "../../components/ProjectCard";
 import * as projects from "../../projects";
 
 export default function Home() {
+  const featuredProjects = Object.values(projects).slice(0, 3);
   return (
     <>
       <Page
@@ -45,7 +46,9 @@ export default function Home() {
         <section id="featured-projects" className="flex-grow-1">
           <Container>
             <Row>
-              <ProjectCard project={projects.goodGames} />
+              {featuredProjects.map(project => (
+                <ProjectCard project={project} />
+              ))}
             </Row>
           </Container>
         </section>
