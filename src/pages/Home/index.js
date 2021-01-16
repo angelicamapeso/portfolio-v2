@@ -26,7 +26,7 @@ export default function Home() {
                     <span id="title-hi" className="display-3">
                       Hi,{" "}
                     </span>
-                    My name is Angelica&nbsp;Mapeso.
+                    My name is Angelica Mapeso.
                   </h1>
                   <div className="left-border-line">
                     <p className="mb-5 h3 font-weight-light">
