@@ -11,7 +11,7 @@ import { skills } from "./skills.js";
 function About() {
   return (
     <Page title="About" description="Get to know me a little bit better">
-      <Container className="pb-4">
+      <Container className="pb-4 mt-4">
         <Row>
           <Col>
             <h1 className="mb-4 display-4 left-border-title">About</h1>

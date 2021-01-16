@@ -7,7 +7,7 @@ import LinkList from "../LinkList";
 function ProjectBody(props) {
   return (
     <>
-      <Container>
+      <Container className="mb-5">
         <Row>
           <Col>
             <h2 className="mb-4 font-weight-light left-border-title">

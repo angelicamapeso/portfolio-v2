@@ -7,7 +7,7 @@ import Nav from "react-bootstrap/Nav";
 function Header() {
   return (
     <header>
-      <Navbar expand="lg" bg="light" className="mb-4">
+      <Navbar expand="lg" bg="light">
         <Navbar.Brand>
           <Link to="/">
             <img src={logo} width="50" height="50" alt="Home" loading="lazy" />

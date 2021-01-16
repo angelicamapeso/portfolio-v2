@@ -25,7 +25,7 @@ function Contact() {
       title="Contact"
       description="Ready to reach out? Let's grab a coffee!"
     >
-      <Container className="pb-4 mb-4">
+      <Container className="pb-4 mb-4 mt-4">
         <Row>
           <Col>
             <h1 className="display-4 left-border-title mb-4">Contact</h1>

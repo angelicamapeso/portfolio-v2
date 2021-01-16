@@ -14,7 +14,7 @@ function Portfolio() {
       title="Portfolio"
       description="Take a look through my most recent projects"
     >
-      <Container className="pb-4">
+      <Container className="pb-4 mt-4">
         <Row>
           <Col>
             <h1 class="mb-4 display-4 left-border-title">Portfolio</h1>
