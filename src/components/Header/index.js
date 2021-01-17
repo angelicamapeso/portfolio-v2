@@ -4,6 +4,8 @@ import logo from "../../img/logo_maroon.svg";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
+import "./style.css";
+
 function Header() {
   return (
     <header>
@@ -17,17 +19,17 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="align-items-end">
             <li className="nav-item">
-              <Link to="/portfolio" className="nav-link h5 mb-0">
+              <Link to="/portfolio" className="nav-link h5 mb-0 link">
                 Portfolio
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link h5 mb-0">
+              <Link to="/about" className="nav-link h5 mb-0 link">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link h5 mb-0">
+              <Link to="/contact" className="nav-link h5 mb-0 link">
                 Contact
               </Link>
             </li>

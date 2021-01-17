@@ -1,0 +1,13 @@
+/*Navbar*/
+.navbar {
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar .navbar-nav .nav-link.link {
+  color: #781031;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #781031;
+}
