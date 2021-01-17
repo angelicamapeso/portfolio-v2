@@ -1,11 +1,11 @@
 /*Hero section*/
 #hero {
-  background: url("../..//img/logo-light.svg") no-repeat;
+  background: url("../../img/logo-light.svg") no-repeat;
   background-position: 85% 5%;
   background-size: 30% auto;
 }
 
-.jumbotron {
+div.jumbotron {
   background-color: transparent;
 }
 
