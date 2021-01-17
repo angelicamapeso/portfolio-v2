@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bootcamp-portfolio/static/css/main.18443755.chunk.css",
-    "main.js": "/bootcamp-portfolio/static/js/main.c1b9426f.chunk.js",
-    "main.js.map": "/bootcamp-portfolio/static/js/main.c1b9426f.chunk.js.map",
+    "main.js": "/bootcamp-portfolio/static/js/main.4958026f.chunk.js",
+    "main.js.map": "/bootcamp-portfolio/static/js/main.4958026f.chunk.js.map",
     "runtime-main.js": "/bootcamp-portfolio/static/js/runtime-main.8415b0ea.js",
     "runtime-main.js.map": "/bootcamp-portfolio/static/js/runtime-main.8415b0ea.js.map",
     "static/css/2.abf3a9aa.chunk.css": "/bootcamp-portfolio/static/css/2.abf3a9aa.chunk.css",
@@ -24,6 +24,8 @@
     "static/media/goodGames_display.347dc6f8.png": "/bootcamp-portfolio/static/media/goodGames_display.347dc6f8.png",
     "static/media/goodGames_icon.099bbd29.png": "/bootcamp-portfolio/static/media/goodGames_icon.099bbd29.png",
     "static/media/logo_maroon.644f0e16.svg": "/bootcamp-portfolio/static/media/logo_maroon.644f0e16.svg",
+    "static/media/nominateIt_display.7c74de42.png": "/bootcamp-portfolio/static/media/nominateIt_display.7c74de42.png",
+    "static/media/nominateIt_icon.2db8e16b.png": "/bootcamp-portfolio/static/media/nominateIt_icon.2db8e16b.png",
     "static/media/weatherDashboard_display.8d01eb9d.png": "/bootcamp-portfolio/static/media/weatherDashboard_display.8d01eb9d.png",
     "static/media/weatherDashboard_icon.3a861632.png": "/bootcamp-portfolio/static/media/weatherDashboard_icon.3a861632.png"
   },
@@ -32,6 +34,6 @@
     "static/css/2.abf3a9aa.chunk.css",
     "static/js/2.6368cf08.chunk.js",
     "static/css/main.18443755.chunk.css",
-    "static/js/main.c1b9426f.chunk.js"
+    "static/js/main.4958026f.chunk.js"
   ]
 }
