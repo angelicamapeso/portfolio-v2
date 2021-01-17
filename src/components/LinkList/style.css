@@ -1,0 +1,15 @@
+/*Link list*/
+.text-list {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.text-list li::before {
+  content: "";
+  display: inline-block;
+  margin-right: 1rem;
+  width: 10px;
+  height: 10px;
+  background-image: url("../../img/chevron-thin-right.svg");
+  background-size: cover;
+}
