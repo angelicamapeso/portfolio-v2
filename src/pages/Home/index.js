@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import ProjectCard from "../../components/ProjectCard";
+import "./style.css";
 
 import * as projects from "../../projects";
 

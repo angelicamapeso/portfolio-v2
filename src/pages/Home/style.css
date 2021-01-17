@@ -1,0 +1,28 @@
+/*Hero section*/
+#hero {
+  background: url("../..//img/logo-light.svg") no-repeat;
+  background-position: 85% 5%;
+  background-size: 30% auto;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+#title-hi {
+  display: block;
+}
+
+.jumbotron h1 {
+  color: #781031;
+}
+
+/*Featured project section*/
+#featured-projects {
+  background-color: #d8d8d8;
+}
+
+#featured-projects .container {
+  position: relative;
+  top: -35px;
+}
