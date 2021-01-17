@@ -8,7 +8,7 @@ function ProjectCard(props) {
     <Col xs={12} sm={6} lg={4}>
       <Card>
         <a
-          href={"/portfolio" + props.project.infoPage}
+          href={process.env.PUBLIC_URL + "/portfolio" + props.project.infoPage}
           aria-label={props.project.title + " website"}
         >
           <Card.Img
