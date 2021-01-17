@@ -47,8 +47,8 @@ export default function Home() {
         <section id="featured-projects" className="flex-grow-1">
           <Container>
             <Row>
-              {featuredProjects.map(project => (
-                <ProjectCard project={project} />
+              {featuredProjects.map((project, index) => (
+                <ProjectCard key={index} project={project} />
               ))}
             </Row>
           </Container>

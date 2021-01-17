@@ -20,8 +20,8 @@ function Portfolio() {
             <h1 class="mb-4 display-4 left-border-title">Portfolio</h1>
 
             <Row>
-              {projArray.map(project => (
-                <ProjectCard project={project} />
+              {projArray.map((project, index) => (
+                <ProjectCard key={index} project={project} />
               ))}
             </Row>
           </Col>

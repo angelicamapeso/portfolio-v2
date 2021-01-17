@@ -45,8 +45,8 @@ function About() {
                 </Col>
               </Row>
               <Row className="pb-3">
-                {skills.map(skill => (
-                  <Col xs={12} md className="mb-3">
+                {skills.map((skill, index) => (
+                  <Col key={index} xs={12} md className="mb-3">
                     <h2 className="font-weight-light">
                       <i
                         className={skill.icon + " mr-3"}

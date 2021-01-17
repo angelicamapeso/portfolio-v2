@@ -18,8 +18,9 @@ function ProjectBody(props) {
                 <Col>{props.project.description}</Col>
               </Row>
               <Row>
-                {props.project.lists.map(list => (
+                {props.project.lists.map((list, index) => (
                   <Col
+                    key={index}
                     xs={12}
                     md={props.project.lists.length % 2 === 0 ? 6 : 4}
                     className="mb-3"

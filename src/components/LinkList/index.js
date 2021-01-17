@@ -4,8 +4,8 @@ import "./style.css";
 function LinkList(props) {
   return (
     <ul class="text-list">
-      {props.items.map(item => (
-        <li>
+      {props.items.map((item, index) => (
+        <li key={index}>
           {item.link ? (
             <a className="icon-link" href={item.link}>
               {item.name}
