@@ -8,6 +8,7 @@ import LinkList from "../../components/LinkList";
 
 import resume from "./angelicaMapeso_resume2021.pdf";
 import { skills } from "./skills.js";
+import "./style.css";
 
 function About() {
   return (

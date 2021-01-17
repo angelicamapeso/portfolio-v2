@@ -40,21 +40,6 @@ body {
   margin-right: 0.5em;
 }
 
-/*About page*/
-#about-img {
-  width: 100%;
-  border-radius: 50%;
-  background-image: url("./img/headshot_25x.jpg");
-  background-position: 30% 50%;
-  background-size: cover;
-}
-
-#about-img:after {
-  content: "";
-  padding-bottom: 100%;
-  display: block;
-}
-
 .text-list {
   list-style: none;
   padding-left: 0.5rem;
