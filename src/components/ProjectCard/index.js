@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import "./style.css";
@@ -7,8 +8,8 @@ function ProjectCard(props) {
   return (
     <Col xs={12} sm={6} lg={4}>
       <Card>
-        <a
-          href={process.env.PUBLIC_URL + "/portfolio" + props.project.infoPage}
+        <Link
+          to={"/portfolio" + props.project.infoPage}
           aria-label={props.project.title + " website"}
         >
           <Card.Img
@@ -17,7 +18,7 @@ function ProjectCard(props) {
             className="mb-3"
             alt={props.project.title}
           />
-        </a>
+        </Link>
         <Card.Body className="left-border-line">
           <Card.Title className="mb-0">{props.project.title}</Card.Title>
           <Card.Text>{props.project.tagline}</Card.Text>
