@@ -1,5 +1,5 @@
 /*cards*/
-.card {
+div.card {
   border: none;
   background-color: transparent;
   padding-bottom: 3rem;
