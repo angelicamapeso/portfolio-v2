@@ -5,6 +5,7 @@ import * as projects from "../../projects";
 import NotFound from "../NotFound";
 import ProjectHeader from "../../components/ProjectHeader";
 import ProjectBody from "../../components/ProjectBody";
+import "./style.css";
 
 function ProjectPage() {
   const { name } = useParams();

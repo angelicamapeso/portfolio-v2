@@ -39,16 +39,3 @@ body {
 .icon-link i {
   margin-right: 0.5em;
 }
-
-/*Project page*/
-.display-row {
-  position: relative;
-  background-color: lightgray;
-}
-
-.display-image {
-  width: 100%;
-  height: auto;
-  position: relative;
-  left: -1rem;
-}
