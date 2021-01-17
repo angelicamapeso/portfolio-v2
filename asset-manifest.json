@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/bootcamp-portfolio/static/css/main.18443755.chunk.css",
+    "main.js": "/bootcamp-portfolio/static/js/main.0fa5f929.chunk.js",
+    "main.js.map": "/bootcamp-portfolio/static/js/main.0fa5f929.chunk.js.map",
+    "runtime-main.js": "/bootcamp-portfolio/static/js/runtime-main.8415b0ea.js",
+    "runtime-main.js.map": "/bootcamp-portfolio/static/js/runtime-main.8415b0ea.js.map",
+    "static/css/2.abf3a9aa.chunk.css": "/bootcamp-portfolio/static/css/2.abf3a9aa.chunk.css",
+    "static/js/2.4c1f190b.chunk.js": "/bootcamp-portfolio/static/js/2.4c1f190b.chunk.js",
+    "static/js/2.4c1f190b.chunk.js.map": "/bootcamp-portfolio/static/js/2.4c1f190b.chunk.js.map",
+    "index.html": "/bootcamp-portfolio/index.html",
+    "static/css/2.abf3a9aa.chunk.css.map": "/bootcamp-portfolio/static/css/2.abf3a9aa.chunk.css.map",
+    "static/css/main.18443755.chunk.css.map": "/bootcamp-portfolio/static/css/main.18443755.chunk.css.map",
+    "static/js/2.4c1f190b.chunk.js.LICENSE.txt": "/bootcamp-portfolio/static/js/2.4c1f190b.chunk.js.LICENSE.txt",
+    "static/media/angelicaMapeso_resume2021.424bb672.pdf": "/bootcamp-portfolio/static/media/angelicaMapeso_resume2021.424bb672.pdf",
+    "static/media/burgerLogger_display.f7cb01af.png": "/bootcamp-portfolio/static/media/burgerLogger_display.f7cb01af.png",
+    "static/media/burgerLogger_icon.1e8c9235.png": "/bootcamp-portfolio/static/media/burgerLogger_icon.1e8c9235.png",
+    "static/media/style.css": "/bootcamp-portfolio/static/media/logo-light.adcb6025.svg",
+    "static/media/codeQuiz_display.92dc8308.png": "/bootcamp-portfolio/static/media/codeQuiz_display.92dc8308.png",
+    "static/media/codeQuiz_icon.b45dd4b0.png": "/bootcamp-portfolio/static/media/codeQuiz_icon.b45dd4b0.png",
+    "static/media/eatLocal_display.7ce60290.png": "/bootcamp-portfolio/static/media/eatLocal_display.7ce60290.png",
+    "static/media/eatLocal_icon.e79cdcd7.png": "/bootcamp-portfolio/static/media/eatLocal_icon.e79cdcd7.png",
+    "static/media/all.min.css": "/bootcamp-portfolio/static/media/fa-solid-900.f4f93856.woff",
+    "static/media/goodGames_display.347dc6f8.png": "/bootcamp-portfolio/static/media/goodGames_display.347dc6f8.png",
+    "static/media/goodGames_icon.099bbd29.png": "/bootcamp-portfolio/static/media/goodGames_icon.099bbd29.png",
+    "static/media/logo_maroon.644f0e16.svg": "/bootcamp-portfolio/static/media/logo_maroon.644f0e16.svg",
+    "static/media/weatherDashboard_display.8d01eb9d.png": "/bootcamp-portfolio/static/media/weatherDashboard_display.8d01eb9d.png",
+    "static/media/weatherDashboard_icon.3a861632.png": "/bootcamp-portfolio/static/media/weatherDashboard_icon.3a861632.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8415b0ea.js",
+    "static/css/2.abf3a9aa.chunk.css",
+    "static/js/2.4c1f190b.chunk.js",
+    "static/css/main.18443755.chunk.css",
+    "static/js/main.0fa5f929.chunk.js"
+  ]
+}
