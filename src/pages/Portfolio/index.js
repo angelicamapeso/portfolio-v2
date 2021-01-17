@@ -17,7 +17,7 @@ function Portfolio() {
       <Container className="pb-4 mt-4">
         <Row>
           <Col>
-            <h1 class="mb-4 display-4 left-border-title">Portfolio</h1>
+            <h1 className="mb-4 display-4 left-border-title">Portfolio</h1>
 
             <Row>
               {projArray.map((project, index) => (

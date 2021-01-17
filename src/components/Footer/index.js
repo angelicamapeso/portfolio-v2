@@ -7,7 +7,7 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer class="footer mt-auto py-3">
+    <footer className="footer mt-auto py-3">
       <Container>
         <Row>
           <Col>
@@ -18,17 +18,17 @@ function Footer() {
           <Col xs="auto">
             <a
               href="https://github.com/angelicamapeso"
-              class="mr-3 h4"
+              className="mr-3 h4"
               aria-label="Github"
             >
-              <i class="fab fa-github" aria-hidden="true"></i>
+              <i className="fab fa-github" aria-hidden="true"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/angelica-mapeso"
-              class="mr-3 h4"
+              className="mr-3 h4"
               aria-label="LinkedIn"
             >
-              <i class="fab fa-linkedin" aria-hidden="true"></i>
+              <i className="fab fa-linkedin" aria-hidden="true"></i>
             </a>
           </Col>
         </Row>

@@ -3,7 +3,7 @@ import "./style.css";
 
 function LinkList(props) {
   return (
-    <ul class="text-list">
+    <ul className="text-list">
       {props.items.map((item, index) => (
         <li key={index}>
           {item.link ? (
