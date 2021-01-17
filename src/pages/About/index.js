@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Page from "../../components/Page";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -62,13 +63,13 @@ function About() {
                   View my Resume for more information
                 </a>
               </p>
-              <a className="btn btn-dark" href="contact.html" role="button">
+              <Link to="/contact" className="btn btn-dark" role="button">
                 Let's get in touch
                 <i
                   className="fas fa-long-arrow-alt-right ml-2"
                   aria-hidden="true"
                 ></i>
-              </a>
+              </Link>
             </div>
           </Col>
         </Row>
