@@ -33,6 +33,14 @@ function ProjectBody(props) {
                   </Col>
                 ))}
               </Row>
+              <Row>
+                <Col>
+                  <a className="btn btn-dark" href={props.project.repo}>
+                    <i className="fab fa-github mr-2" aria-hidden="true"></i>
+                    Visit repo
+                  </a>
+                </Col>
+              </Row>
             </div>
           </Col>
         </Row>
