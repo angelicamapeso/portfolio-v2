@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/bootcamp-portfolio/static/css/main.18443755.chunk.css",
-    "main.js": "/bootcamp-portfolio/static/js/main.4958026f.chunk.js",
-    "main.js.map": "/bootcamp-portfolio/static/js/main.4958026f.chunk.js.map",
+    "main.js": "/bootcamp-portfolio/static/js/main.84d8affe.chunk.js",
+    "main.js.map": "/bootcamp-portfolio/static/js/main.84d8affe.chunk.js.map",
     "runtime-main.js": "/bootcamp-portfolio/static/js/runtime-main.8415b0ea.js",
     "runtime-main.js.map": "/bootcamp-portfolio/static/js/runtime-main.8415b0ea.js.map",
     "static/css/2.abf3a9aa.chunk.css": "/bootcamp-portfolio/static/css/2.abf3a9aa.chunk.css",
-    "static/js/2.6368cf08.chunk.js": "/bootcamp-portfolio/static/js/2.6368cf08.chunk.js",
-    "static/js/2.6368cf08.chunk.js.map": "/bootcamp-portfolio/static/js/2.6368cf08.chunk.js.map",
+    "static/js/2.e8b1dfdf.chunk.js": "/bootcamp-portfolio/static/js/2.e8b1dfdf.chunk.js",
+    "static/js/2.e8b1dfdf.chunk.js.map": "/bootcamp-portfolio/static/js/2.e8b1dfdf.chunk.js.map",
     "index.html": "/bootcamp-portfolio/index.html",
     "static/css/2.abf3a9aa.chunk.css.map": "/bootcamp-portfolio/static/css/2.abf3a9aa.chunk.css.map",
     "static/css/main.18443755.chunk.css.map": "/bootcamp-portfolio/static/css/main.18443755.chunk.css.map",
-    "static/js/2.6368cf08.chunk.js.LICENSE.txt": "/bootcamp-portfolio/static/js/2.6368cf08.chunk.js.LICENSE.txt",
+    "static/js/2.e8b1dfdf.chunk.js.LICENSE.txt": "/bootcamp-portfolio/static/js/2.e8b1dfdf.chunk.js.LICENSE.txt",
     "static/media/angelicaMapeso_resume2021.424bb672.pdf": "/bootcamp-portfolio/static/media/angelicaMapeso_resume2021.424bb672.pdf",
+    "static/media/bookie_display.7e9be0f9.png": "/bootcamp-portfolio/static/media/bookie_display.7e9be0f9.png",
+    "static/media/bookie_icon.f6e85150.png": "/bootcamp-portfolio/static/media/bookie_icon.f6e85150.png",
     "static/media/burgerLogger_display.f7cb01af.png": "/bootcamp-portfolio/static/media/burgerLogger_display.f7cb01af.png",
     "static/media/burgerLogger_icon.1e8c9235.png": "/bootcamp-portfolio/static/media/burgerLogger_icon.1e8c9235.png",
     "static/media/style.css": "/bootcamp-portfolio/static/media/logo-light.adcb6025.svg",
@@ -32,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.8415b0ea.js",
     "static/css/2.abf3a9aa.chunk.css",
-    "static/js/2.6368cf08.chunk.js",
+    "static/js/2.e8b1dfdf.chunk.js",
     "static/css/main.18443755.chunk.css",
-    "static/js/main.4958026f.chunk.js"
+    "static/js/main.84d8affe.chunk.js"
   ]
 }
