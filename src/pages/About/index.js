@@ -25,22 +25,32 @@ function About() {
                 <Col xd={12} md={8}>
                   <p className="lead">
                     Currently a student at Carleton University in the
-                    Interactive Multimedia Program and the Carleton Coding
-                    Bootcamp.
+                    Interactive Multimedia Program and recent graduate of the
+                    Carleton Coding Bootcamp.
                   </p>
                   <p>
-                    I have a solid foundation in designing for multimedia
-                    (animation, web design, UI/UX) through the Interactive
-                    Multimedia and Design program at Carleton University, and am
-                    currently learning the MERN stack through the Carleton
-                    University Full-Stack coding bootcamp.
+                    Full-stack developer with a background in multimedia design
+                    seeking to build elegant and intuitive websites. I deepened
+                    my knowledge of the MERN stack through the Carleton
+                    University Coding Bootcamp and am currently developing
+                    multimedia skills through the Interactive Multimedia and
+                    Design program at Carleton. Additionally, I am a team player
+                    who exhibits effective time management skills and attention
+                    to detail.
+                  </p>
+                  <p>
+                    I applied skills in Graphic Design and UI/UX as an
+                    Interaction Designer at Public Services and Procurement
+                    Canada for the CanadaBuys website. Within this role, I used
+                    these skills to push the boundaries of the Government’s
+                    current web design and effectively collaborated within a
+                    multi-disciplinary team of user researchers and content
+                    writers.
                   </p>
                   <p className="mb-5">
-                    I am passionate about creating beautiful and functional user
-                    interfaces and user experiences. Equipped with knowledge in
-                    graphic design, UI/UX design, web development and
-                    collaborative skills, I am hoping to eventually work as a
-                    full-stack developer.
+                    With a design background, web development skills and
+                    collaboration experience, I aim to contribute to web
+                    projects as a full-stack developer.
                   </p>
                 </Col>
               </Row>
