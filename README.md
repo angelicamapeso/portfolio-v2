@@ -1,4 +1,4 @@
-# Bootcamp - Homework 2: My Portfolio Site
+# My Portfolio Site
 
 ![Portfolio website preview](./img/portfolio_preview.png)
 
@@ -27,5 +27,3 @@ My portfolio is a place to document that growth (and my current blunders). Feel 
 - [React](https://reactjs.org/)
 - [Bootstrap 4.5](https://getbootstrap.com/)
 - [Font Awesome 5](https://fontawesome.com/)
-
-This homework assignment is part of the [Carleton University Coding Bootcamp](https://bootcamp.carleton.ca/).
