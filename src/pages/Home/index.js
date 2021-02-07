@@ -32,7 +32,8 @@ export default function Home() {
                   </h1>
                   <div className="left-border-line">
                     <p className="mb-5 h3 font-weight-light">
-                      I'm an aspiring web developer and web designer.
+                      I'm an full-stack developer with a passion for Graphic
+                      Design and UI/UX Design.
                     </p>
                     <Link to="/about" className="btn btn-dark">
                       Learn more about me
