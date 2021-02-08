@@ -1,3 +1,4 @@
+export * from "./bitGora";
 export * from "./nominate-it";
 export * from "./bookie";
 export * from "./good-games";
