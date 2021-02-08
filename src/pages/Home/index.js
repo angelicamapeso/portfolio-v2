@@ -52,6 +52,14 @@ export default function Home() {
                 <ProjectCard key={index} project={project} />
               ))}
             </Row>
+            <Row>
+              <Col>
+                <Link to="/portfolio" className="btn btn-dark mb-4">
+                  View full Portfolio
+                  <i className="fas fa-long-arrow-alt-right ml-2"></i>
+                </Link>
+              </Col>
+            </Row>
           </Container>
         </section>
       </Page>
