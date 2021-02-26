@@ -1,7 +1,7 @@
 {
   "name": "bootcamp-portfolio",
   "version": "0.1.0",
-  "homepage": "https://angelicamapeso.github.io/bootcamp-portfolio",
+  "homepage": "https://angelicamapeso.github.io/portfolio-v2",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.2.3",

@@ -2,7 +2,7 @@
 
 ![Portfolio website preview](./img/portfolio_preview.png)
 
-:link: [Portfolio Website](https://angelicamapeso.github.io/bootcamp-portfolio/)
+:link: [Portfolio Website](https://angelicamapeso.github.io/portfolio-v2/)
 
 View my most recent projects, get to know me a little more and feel free to reach out. If you're interested, you can also grab a copy of my resume.
 
