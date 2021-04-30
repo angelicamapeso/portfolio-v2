@@ -15,7 +15,7 @@ export const bitGora = {
   description: (
     <>
       <p>
-        BitGora is your marketplace to buy and sell goods using Bitcoin. Your
+        BitGora is a marketplace to buy and sell goods using Bitcoin. Your
         dashboard will display other users' postings and your posts will be
         available to other users. If you see a post that you're interested in,
         BitGora comes with a chat function to arrange meet-ups or negotiate
