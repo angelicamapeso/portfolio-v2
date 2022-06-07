@@ -6,7 +6,7 @@
 
 View my most recent projects, get to know me a little more and feel free to reach out. If you're interested, you can also grab a copy of my resume.
 
-This portfolio was an ongoing effort throughout Bootcamp. It started with hard-coded HTML pages and has now turned into a React application.
+This portfolio was an ongoing effort throughout Bootcamp. It started with hard-coded HTML pages and has now turned into a React application!
 
 ## Purpose
 
