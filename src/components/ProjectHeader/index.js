@@ -21,14 +21,6 @@ function ProjectHeader(props) {
             </h1>
             <div className="left-border-line">
               <p className="lead font-weight-normal">{props.project.tagline}</p>
-              <a
-                className="btn btn-dark"
-                href={props.project.url}
-                role="button"
-              >
-                <i className="fas fa-link mr-2" aria-hidden="true"></i>Visit
-                site
-              </a>
             </div>
           </Col>
         </Row>
