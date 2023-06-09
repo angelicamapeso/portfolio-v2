@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-v2/static/css/main.77f31e39.chunk.css",
-    "main.js": "/portfolio-v2/static/js/main.3467590f.chunk.js",
-    "main.js.map": "/portfolio-v2/static/js/main.3467590f.chunk.js.map",
+    "main.js": "/portfolio-v2/static/js/main.3b18de94.chunk.js",
+    "main.js.map": "/portfolio-v2/static/js/main.3b18de94.chunk.js.map",
     "runtime-main.js": "/portfolio-v2/static/js/runtime-main.5d5558e6.js",
     "runtime-main.js.map": "/portfolio-v2/static/js/runtime-main.5d5558e6.js.map",
     "static/css/2.8ce58464.chunk.css": "/portfolio-v2/static/css/2.8ce58464.chunk.css",
@@ -12,7 +12,6 @@
     "static/css/2.8ce58464.chunk.css.map": "/portfolio-v2/static/css/2.8ce58464.chunk.css.map",
     "static/css/main.77f31e39.chunk.css.map": "/portfolio-v2/static/css/main.77f31e39.chunk.css.map",
     "static/js/2.e8b1dfdf.chunk.js.LICENSE.txt": "/portfolio-v2/static/js/2.e8b1dfdf.chunk.js.LICENSE.txt",
-    "static/media/angelicaMapeso_resume2021.09a3496f.pdf": "/portfolio-v2/static/media/angelicaMapeso_resume2021.09a3496f.pdf",
     "static/media/bitGora_display.2ffc6793.png": "/portfolio-v2/static/media/bitGora_display.2ffc6793.png",
     "static/media/bitGora_icon.929ec376.png": "/portfolio-v2/static/media/bitGora_icon.929ec376.png",
     "static/media/bookie_display.7e9be0f9.png": "/portfolio-v2/static/media/bookie_display.7e9be0f9.png",
@@ -28,6 +27,7 @@
     "static/media/goodGames_display.347dc6f8.png": "/portfolio-v2/static/media/goodGames_display.347dc6f8.png",
     "static/media/goodGames_icon.099bbd29.png": "/portfolio-v2/static/media/goodGames_icon.099bbd29.png",
     "static/media/logo_maroon.644f0e16.svg": "/portfolio-v2/static/media/logo_maroon.644f0e16.svg",
+    "static/media/mapesoAngelica_resume2023.c01b6c00.pdf": "/portfolio-v2/static/media/mapesoAngelica_resume2023.c01b6c00.pdf",
     "static/media/nominateIt_display.7c74de42.png": "/portfolio-v2/static/media/nominateIt_display.7c74de42.png",
     "static/media/nominateIt_icon.2db8e16b.png": "/portfolio-v2/static/media/nominateIt_icon.2db8e16b.png",
     "static/media/weatherDashboard_display.8d01eb9d.png": "/portfolio-v2/static/media/weatherDashboard_display.8d01eb9d.png",
@@ -38,6 +38,6 @@
     "static/css/2.8ce58464.chunk.css",
     "static/js/2.e8b1dfdf.chunk.js",
     "static/css/main.77f31e39.chunk.css",
-    "static/js/main.3467590f.chunk.js"
+    "static/js/main.3b18de94.chunk.js"
   ]
 }
