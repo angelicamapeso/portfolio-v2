@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import LinkList from "../../components/LinkList";
 
-import resume from "./angelicaMapeso_resume2021.pdf";
+import resume from "./mapesoAngelica_resume2023.pdf";
 import { skills } from "./skills.js";
 import "./style.css";
 
