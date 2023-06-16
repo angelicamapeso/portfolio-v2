@@ -28,11 +28,13 @@ body {
 }
 
 /*Links with icons*/
-.icon-link {
+.icon-link,
+a {
   color: #941b41;
 }
 
-.icon-link:hover {
+.icon-link:hover,
+a:hover {
   color: #33121c;
 }
 

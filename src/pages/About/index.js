@@ -16,7 +16,7 @@ function About() {
       <Container className="pb-5 mt-4">
         <Row>
           <Col>
-            <h1 className="mb-4 display-4 left-border-title">About</h1>
+            <h1 className="mb-4 display-4 left-border-title">Hey!</h1>
             <div className="left-border-line">
               <Row>
                 <Col xs={12} md={4} className="order-md-1 mb-5">
@@ -24,33 +24,77 @@ function About() {
                 </Col>
                 <Col xd={12} md={8}>
                   <p className="lead">
-                    Currently a student at Carleton University in the
-                    Interactive Multimedia Program and recent graduate of the
-                    Carleton Coding Bootcamp.
+                    I’m a front-end developer devoted to writing clean code,
+                    empowering end users and expanding my knowledge (especially
+                    to the back-end!).
                   </p>
                   <p>
-                    Full-stack developer with a background in multimedia design
-                    seeking to build elegant and intuitive websites. I deepened
-                    my knowledge of the MERN stack through the Carleton
-                    University Coding Bootcamp and am currently developing
-                    multimedia skills through the Interactive Multimedia and
-                    Design program at Carleton. Additionally, I am a team player
-                    who exhibits effective time management skills and attention
-                    to detail.
+                    Prior to discovering my love of programming, I set down my
+                    roots in the world of visual art. I went from working with
+                    physical mediums (acrylic paint, sculpture etc.) to
+                    eventually trying out graphic design and continue to
+                    practice both today.
                   </p>
                   <p>
-                    I applied skills in Graphic Design and UI/UX as an
-                    Interaction Designer at Public Services and Procurement
-                    Canada for the CanadaBuys website. Within this role, I used
-                    these skills to push the boundaries of the Government’s
-                    current web design and effectively collaborated within a
-                    multi-disciplinary team of user researchers and content
-                    writers.
+                    Despite being heavily creative, I also enjoy the world of
+                    logic (math, physics etc.) and immediately fell in love with
+                    programming when I discovered it during an elective course
+                    in my first year of undergrad. (I wrote a little python
+                    program that pretended you were a Pokemon trainer who had to
+                    make a choice of where to step in the wild grass. Depending
+                    on what you picked, a single pokemon would be drawn out on
+                    the screen.)
                   </p>
-                  <p className="mb-5">
-                    With a design background, web development skills and
-                    collaboration experience, I aim to contribute to web
-                    projects as a full-stack developer.
+                  <p>
+                    I dove into the{" "}
+                    <a href="https://admissions.carleton.ca/programs/interactive-multimedia-and-design-imd/">
+                      Interactive Multimedia and Design program at Carleton
+                    </a>{" "}
+                    seeking to marry my creative and logical sides, and was met
+                    with a learning experience that expanded both worlds.
+                  </p>
+                  <p>
+                    Courses that fed my creative side included:
+                    <ul>
+                      <li>Game Design</li>
+                      <li>User Experince and User Interface Design</li>
+                      <li>3D & 2D Modeling and Animation</li>
+                    </ul>
+                  </p>
+                  <p>
+                    While courses that fed my logical side included:
+                    <ul>
+                      <li>Web Development</li>
+                      <li>Programming in Unity</li>
+                      <li>Object-Oriented Programing with C++</li>
+                    </ul>
+                  </p>
+                  <p>
+                    When I came across web development, I decided to deepen my
+                    knowledge and completed the{" "}
+                    <a href="https://bootcamp.carleton.ca/coding/">
+                      Carleton Coding Bootcamp
+                    </a>{" "}
+                    during my undergrad. Completing this bootcamp marked one of
+                    the busiest parts of my life. However, it was well worth it.
+                  </p>
+                  <p class="lead mt-5">
+                    I’m confident to say that my background in design has made
+                    me a well-rounded developer that is very conscious about
+                    user experience and making code changes that are easy for
+                    other developers to build onto. I'm a team player all
+                    around!
+                  </p>
+                  <p>
+                    Other than that, I’m a sucker for sweets and feel like
+                    bubble tea probably runs through my veins. I also
+                    occasionally get sucked into a video game or show that I
+                    can’t get enough of for a while before returning back to the
+                    real world. But I’m sure that’s normal … right?
+                  </p>
+                  <p class="mb-5">
+                    Anyway, I’m always open to talk web development or design,
+                    so if you’re still reading this - let’s get in touch!
                   </p>
                 </Col>
               </Row>
