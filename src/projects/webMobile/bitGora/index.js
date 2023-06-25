@@ -1,5 +1,22 @@
 import React from "react";
 import displayImg from "./bitGora_display.png";
+import { WEB_MOBILE_SECTION } from "../../tags";
+import {
+  REACT_TECH,
+  REACT_BOOTSTRAP_TECH,
+  FONT_AWESOME_TECH,
+  SOCKET_IO_CLIENT_TECH,
+} from "../frontEnd_tech";
+
+import {
+  EXPRESS_TECH,
+  MONGOOSE_TECH,
+  PASSPORT_TECH,
+  CLOUDINARY_TECH,
+  SOCKET_IO_SERVER_TECH,
+} from "../backEnd_tech";
+
+const { FULL_STACK_TAG, REACT_TAG } = WEB_MOBILE_SECTION.tags;
 
 export const bitGora = {
   title: "BitGora",
@@ -8,6 +25,7 @@ export const bitGora = {
   repo: "https://github.com/ZiyongHe/bitGora",
   tagline: "A marketplace for buying and selling goods with Bitcoin",
   img: displayImg,
+  tags: [FULL_STACK_TAG, REACT_TAG],
   description: (
     <>
       <p>
@@ -37,48 +55,21 @@ export const bitGora = {
       icon: "fas fa-desktop",
       title: "Front-End",
       items: [
-        {
-          name: "React",
-          link: "https://reactjs.org/",
-        },
-        {
-          name: "React-Bootstrap",
-          link: "https://react-bootstrap.github.io/",
-        },
-        {
-          name: "Font Awesome",
-          link: "https://fontawesome.com/",
-        },
-        {
-          name: "Socket.io (Client)",
-          link: "https://socket.io/",
-        },
+        REACT_TECH,
+        REACT_BOOTSTRAP_TECH,
+        FONT_AWESOME_TECH,
+        SOCKET_IO_CLIENT_TECH,
       ],
     },
     {
       icon: "fas fa-server",
       title: "Back-End",
       items: [
-        {
-          name: "Express",
-          link: "https://expressjs.com/",
-        },
-        {
-          name: "Mongoose",
-          link: "https://mongoosejs.com/",
-        },
-        {
-          name: "Passport",
-          link: "http://www.passportjs.org/",
-        },
-        {
-          name: "Cloudinary",
-          link: "https://cloudinary.com/",
-        },
-        {
-          name: "Socket.io (Server)",
-          link: "https://socket.io/",
-        },
+        EXPRESS_TECH,
+        MONGOOSE_TECH,
+        PASSPORT_TECH,
+        CLOUDINARY_TECH,
+        SOCKET_IO_SERVER_TECH,
       ],
     },
     {
