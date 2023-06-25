@@ -48,7 +48,7 @@ export const delish = {
           </p>
         </>
       ),
-      images: [roughSketches, desktopWireframe, mobileWireframe],
+      images: [delishLogo, contactMockup, productsMockup],
     },
     {
       title: "The Process",
@@ -76,7 +76,7 @@ export const delish = {
           </p>
         </>
       ),
-      images: [delishLogo, contactMockup, productsMockup],
+      images: [roughSketches, desktopWireframe, mobileWireframe],
     },
   ],
 };
