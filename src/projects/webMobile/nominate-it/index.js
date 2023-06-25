@@ -1,28 +1,26 @@
 import React from "react";
-import displayImg from "./bookie_display.png";
-import iconImg from "./bookie_icon.png";
+import displayImg from "./nominateIt_display.png";
 
-export const bookie = {
-  title: "Bookie",
-  infoPage: "/bookie",
-  url: "https://bookie-search.herokuapp.com/",
-  repo: "https://github.com/angelicamapeso/bookie",
-  tagline: "Search for and recommend books",
-  img: {
-    display: displayImg,
-    icon: iconImg,
-  },
+export const nominateIt = {
+  title: "Nominate It",
+  infoPage: "/nominate-it",
+  url: "",
+  repo: "https://github.com/angelicamapeso/nominate-it",
+  tagline: "Submit your top 5 movie nominations",
+  img: displayImg,
+  tags: [""],
   description: (
     <>
-      <p>Bookie is a place for book enthusiasts to share their recommendeds.</p>
+      <p>Nominate is a website for sending in your top 5 movies.</p>
       <p>
-        Head to the Search page to look up a book and save it to the list, or go
-        to the Recommended page to see what others have already recommended.
+        Add movies to your nomination list by selecting a result from the
+        search. Your submission will appear on the 'Nominations' page. Browse
+        through the lists to see what other people nominated as their top 5's.
       </p>
-      <p>All book data is retrieved using the Google Books API.</p>
+      <p>All movie data is retrieved with the OMDb API.</p>
     </>
   ),
-  lists: [
+  technology: [
     {
       icon: "fas fa-desktop",
       title: "Front-End",
@@ -53,6 +51,10 @@ export const bookie = {
           name: "Mongoose",
           link: "https://mongoosejs.com/",
         },
+        {
+          name: "Axios",
+          link: "https://www.npmjs.com/package/axios",
+        },
       ],
     },
     {
@@ -60,8 +62,8 @@ export const bookie = {
       title: "API",
       items: [
         {
-          name: "Google Books API",
-          link: "https://developers.google.com/books/docs/overview",
+          name: "OMDb API",
+          link: "https://www.omdbapi.com/",
         },
       ],
     },

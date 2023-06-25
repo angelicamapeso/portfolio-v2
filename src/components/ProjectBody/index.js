@@ -17,7 +17,7 @@ function ProjectBody(props) {
               <Row className="mb-5">
                 <Col>{props.project.description}</Col>
               </Row>
-              <Row>
+              {/* <Row>
                 {props.project.lists.map((list, index) => (
                   <Col
                     key={index}
@@ -32,7 +32,7 @@ function ProjectBody(props) {
                     <LinkList items={list.items} />
                   </Col>
                 ))}
-              </Row>
+              </Row> */}
               <Row>
                 <Col>
                   <a className="btn btn-dark" href={props.project.repo}>

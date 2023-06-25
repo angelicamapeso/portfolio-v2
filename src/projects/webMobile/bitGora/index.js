@@ -1,25 +1,21 @@
 import React from "react";
 import displayImg from "./bitGora_display.png";
-import iconImg from "./bitGora_icon.png";
 
 export const bitGora = {
   title: "BitGora",
   infoPage: "/bitgora",
-  url: "https://bitgora.herokuapp.com/",
+  url: "",
   repo: "https://github.com/ZiyongHe/bitGora",
   tagline: "A marketplace for buying and selling goods with Bitcoin",
-  img: {
-    display: displayImg,
-    icon: iconImg,
-  },
+  img: displayImg,
   description: (
     <>
       <p>
-        BitGora is a marketplace to buy and sell goods using Bitcoin. Your
-        dashboard will display other users' postings and your posts will be
-        available to other users. If you see a post that you're interested in,
-        BitGora comes with a chat function to arrange meet-ups or negotiate
-        price.
+        BitGora is a community for Bitcoin enthusiasts to connect and buy & sell
+        goods. To sell items, you can create posts with your item's image,
+        description and cost. To buy, you can view other people's posts on your
+        dashboard. If you see a post that you're interested in, BitGora comes
+        with a chat function to arrange meet-ups or negotiate price.
       </p>
       <p>
         We created BitGora because we noticed a gap in being able to spend or
@@ -28,23 +24,15 @@ export const bitGora = {
         opportunity at gaining Bitcoin with smaller and more familiar
         transactions of buying/selling goods.
       </p>
-      <p>
-        Because of BitGora's chat functions, BitGora also builds a community and
-        connects Bitcoin enthusiats together.
-      </p>
     </>
   ),
-  lists: [
+  team: [
     {
-      icon: "fas fa-users",
-      title: "Team Members",
-      items: [
-        {
-          name: "Ziyong He",
-          link: "https://github.com/ZiyongHe",
-        },
-      ],
+      name: "Ziyong He",
+      link: "https://github.com/ZiyongHe",
     },
+  ],
+  technology: [
     {
       icon: "fas fa-desktop",
       title: "Front-End",

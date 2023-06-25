@@ -14,7 +14,7 @@ function ProjectCard(props) {
         >
           <Card.Img
             variant="top"
-            src={props.project.img.icon}
+            src={props.project.img}
             className="mb-3"
             alt={props.project.title}
           />

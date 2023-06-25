@@ -11,8 +11,10 @@ function ProjectPage() {
   const { name } = useParams();
   const projArray = Object.values(projects);
   const currentProject = projArray.find(
-    project => project.infoPage.slice(1) === name
+    (project) => project.infoPage.slice(1) === name
   );
+
+  console.log(projArray);
 
   if (!currentProject) {
     return <NotFound />;

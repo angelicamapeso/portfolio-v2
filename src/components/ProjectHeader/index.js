@@ -10,7 +10,7 @@ function ProjectHeader(props) {
         <Row className="justify-content-between">
           <Col xs={12} md={5} className="p-0 order-md-1">
             <img
-              src={props.project.img.display}
+              src={props.project.img}
               className="display-image"
               alt={props.project.title}
             />
