@@ -80,11 +80,4 @@ export const delish = {
       images: [delishLogo, contactMockup, productsMockup],
     },
   ],
-  technology: [
-    {
-      icon: "fas fa-desktop",
-      title: "Front-End",
-      items: [REACT_TECH, SASS_TECH],
-    },
-  ],
 };
