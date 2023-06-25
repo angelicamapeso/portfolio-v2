@@ -25,8 +25,9 @@ export const delish = {
   description: (
     <>
       <p>
-        As part of a Web Development class, this website was created for a
-        fictional bakery called "Delish". To create this website, I had to
+        As part of a first-year Web Development class (Interactive Multimedia
+        and Design Program at Carleton University), this website was created for
+        a fictional bakery called "Delish". To create this website, I had to
         consider a user group, draw rough sketches and bring the idea to life
         through wireframes and mockups.
       </p>
@@ -44,7 +45,7 @@ export const delish = {
           <p>
             Delish is meant to be a fun, warm and energetic brand. Their
             personality is reflected in the red colour scheme and unconventional
-            titling.
+            tiling.
           </p>
         </>
       ),
@@ -66,7 +67,7 @@ export const delish = {
           </p>
           <p>
             Since the older generation would probably focus on buying goods
-            in-store, I placed the store information in the header of the
+            in-store, I placed the store information on the header of the
             homepage for easy access.
           </p>
           <p>
