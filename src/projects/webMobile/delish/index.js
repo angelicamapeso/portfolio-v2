@@ -11,7 +11,6 @@ import {
 } from "./images";
 
 import { WEB_MOBILE_SECTION } from "../../tags";
-import { REACT_TECH, SASS_TECH } from "../frontEnd_tech";
 
 const { FRONT_END_TAG, PURE_HTML_CSS_JS_TAG } = WEB_MOBILE_SECTION.tags;
 
