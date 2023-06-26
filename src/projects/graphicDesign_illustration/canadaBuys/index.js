@@ -31,8 +31,8 @@ export const canadaBuys = {
       <p>
         The idea of money best represented economic growth and from this, the
         CanadaBuys ambassadors were born. Each ambassador was taken from the
-        imagery on the Canadian coins, while the colour scheme references
-        Canadian bills.
+        imagery on the Canadian coins (the moose, the beaver, the loon etc.),
+        while the colour scheme references Canadian bills.
       </p>
       <p>
         The overall geometric style encompassed the two values of modernization
