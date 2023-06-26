@@ -21,6 +21,7 @@ export const survivalOfTheFittest_display = {
   tagline:
     'A comic book inspired by the biblical story "The Parable of the Good Samaritan"',
   img: displayImg,
+  images: [cover, page1, page2],
   tags: [ILLUSTRATION_TAG],
   description: (
     <>
@@ -65,7 +66,6 @@ export const survivalOfTheFittest_display = {
           </p>
         </>
       ),
-      images: [cover, page1, page2],
     },
     {
       title: "The Process",

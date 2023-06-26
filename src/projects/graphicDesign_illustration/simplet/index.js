@@ -22,6 +22,7 @@ export const simplet = {
   tagline:
     "An app concept for a student calendar app focused on progress-tracking and goal setting",
   img: displayImg,
+  images: [homeMockup, monthMockup, weekMockup, dayMockup],
   tags: [APP_DESIGN_TAG],
   description: (
     <>
@@ -59,7 +60,6 @@ export const simplet = {
           </p>
         </>
       ),
-      images: [homeMockup, monthMockup, weekMockup, dayMockup],
     },
     {
       title: "The Process",
