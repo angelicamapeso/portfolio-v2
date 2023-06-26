@@ -24,7 +24,7 @@ function About() {
                 </Col>
                 <Col xd={12} md={8}>
                   <p className="lead">
-                    I’m a front-end developer devoted to writing clean code,
+                    I'm a front-end developer devoted to writing clean code,
                     empowering end users and expanding my knowledge (especially
                     to the back-end!).
                   </p>
@@ -79,22 +79,22 @@ function About() {
                     the busiest parts of my life. However, it was well worth it.
                   </p>
                   <p class="lead mt-5">
-                    I’m confident to say that my background in design has made
+                    I'm confident to say that my background in design has made
                     me a well-rounded developer that is very conscious about
                     user experience and making code changes that are easy for
                     other developers to build onto. I'm a team player all
                     around!
                   </p>
                   <p>
-                    Other than that, I’m a sucker for sweets and feel like
+                    Other than that, I'm a sucker for sweets and feel like
                     bubble tea probably runs through my veins. I also
                     occasionally get sucked into a video game or show that I
-                    can’t get enough of for a while before returning back to the
-                    real world. But I’m sure that’s normal … right?
+                    can't get enough of for a while before returning back to the
+                    real world. But I'm sure that's normal … right?
                   </p>
                   <p class="mb-5">
-                    Anyway, I’m always open to talk web development or design,
-                    so if you’re still reading this - let’s get in touch!
+                    Anyway, I'm always open to talk web development or design,
+                    so if you're still reading this - let's get in touch!
                   </p>
                 </Col>
               </Row>
