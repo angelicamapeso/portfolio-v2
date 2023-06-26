@@ -7,7 +7,7 @@ const { MOBILE_TAG, REACT_NATIVE_TAG } = WEB_MOBILE_SECTION.tags;
 
 export const pokemonWeather = {
   title: "Pokémon Weather App",
-  infoPage: "/pokemonWeather",
+  infoPage: "/pokemon-weather",
   url: "",
   repo: "https://github.com/angelicamapeso/pokemon-weather/",
   tagline: "A React Native weather app ... with Pokémon!",
