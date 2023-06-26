@@ -1,0 +1,136 @@
+@import '../../../node_modules/bootstrap/scss/mixins';
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/variables';
+
+@import '../../sass/variables';
+
+#hero-banner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: $maroon;
+
+  .row {
+    flex-grow: 1;
+  }
+
+  .hero-col {
+    padding: 8%;
+  }
+
+  #logo-col {
+    padding-bottom: 0;
+  }
+}
+
+#logo-col {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+  #hero-logo {
+    width: 8em;
+    filter: drop-shadow(0px 10px 0 $red);
+    color: white;
+  }
+}
+
+#introduction {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  h1, #role, #full-stack-tag {
+    text-transform: uppercase;
+  }
+
+  h1 {
+    letter-spacing: 0.5rem;
+    margin-bottom: 1em;
+  }
+
+  p#current {
+    font-size: 1.3em;
+  }
+
+  p#full-stack-tag {
+    font-size: 1.2em;
+  }
+
+  #role, #background {
+    color: $mint;
+  }
+
+  .arrow {
+    margin-top: 1.5em;
+    height: 50px;
+    color: $white;
+    position: relative;
+
+    animation: bounce 0.8s ease-in-out infinite;
+    animation-direction: alternate;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  #hero-banner {
+    height: auto;
+    background-color: white;
+  }
+
+  #logo-col {
+    justify-content: right;
+    align-items: start;
+  }
+
+  #introduction {
+    text-align: left;
+    align-items: start;
+    background-color: white;
+    color: $dark-maroon;
+
+    h1 {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-weight: 500;
+    }
+
+    p#current {
+      font-size: 1.2em;
+      margin-bottom: 2rem;
+    }
+
+    p#full-stack-tag {
+      font-size: 1.1em;
+      background-color: $mint;
+      padding: 2% 6%;
+      border-radius: 25px 25px 25px 0;
+    }
+
+    #last-name {
+      font-weight: bold;
+    }
+
+    #current {
+     line-height: 1.2;
+    }
+
+    #role {
+      color: $red;
+    }
+
+    #background, #full-stack-tag {
+      color: $dark-green;
+    }
+
+    .arrow {
+      color: $dark-maroon;
+      height: 3.5em;
+    }
+  }
+}
