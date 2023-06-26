@@ -1,4 +1,6 @@
 import React from "react";
+import { ReactComponent as Logo } from "../../img/logo_white.svg";
+import { ReactComponent as ArrowDown } from "../../img/arrow_down_white.svg";
 import { Link } from "react-router-dom";
 import Page from "../../components/Page";
 import Container from "react-bootstrap/Container";
@@ -6,7 +8,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import ProjectCard from "../../components/ProjectCard";
-import "./style.css";
+import "./style.scss";
 
 import * as projects from "../../projects";
 
@@ -16,36 +18,24 @@ export default function Home() {
     <>
       <Page
         title="Home"
-        description="Hi, I'm Angelica Mapeso, an aspiring full-stack developer."
+        description="Hi, I'm Angelica Mapeso, a front-end web developer on the way to going full-stack!"
         className="d-flex flex-column"
       >
-        <section id="hero">
-          <Container>
-            <Row>
-              <Col sm>
-                <Jumbotron className="px-0">
-                  <h1 className="display-4 left-border-title">
-                    <span id="title-hi" className="display-3">
-                      Hi,
-                    </span>
-                    My name is Angelica Mapeso.
-                  </h1>
-                  <div className="left-border-line">
-                    <p className="mb-5 h3 font-weight-light">
-                      I'm an full-stack developer with a passion for Graphic
-                      Design and UI/UX Design.
-                    </p>
-                    <Link to="/about" className="btn btn-dark">
-                      Learn more about me
-                    </Link>
-                  </div>
-                </Jumbotron>
-              </Col>
-            </Row>
-          </Container>
-        </section>
+        <Container fluid id="hero-banner">
+          <Row>
+            <Col id="logo-col" className="bg-maroon hero-col" xs={12} sm={4}>
+              <Logo id="hero-logo" />
+            </Col>
+            <Col id="introduction" className="hero-col">
+              <h1>Angelica <span id="last-name">Mapeso</span></h1>
+              <p id="current"><span id="role">Front-End Web Developer</span><br />with a <span id="background">background in design</span></p>
+              <p id="full-stack-tag">On the way to full-stack</p>
+              <ArrowDown className="arrow" />
+            </Col>
+          </Row>
+        </Container>
 
-        <section id="featured-projects" className="flex-grow-1">
+        {/* <section id="featured-projects" className="flex-grow-1">
           <Container>
             <Row>
               {featuredProjects.map((project, index) => (
@@ -61,7 +51,7 @@ export default function Home() {
               </Col>
             </Row>
           </Container>
-        </section>
+        </section> */}
       </Page>
     </>
   );

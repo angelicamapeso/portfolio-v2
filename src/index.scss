@@ -1,3 +1,5 @@
+@use './sass/animations';
+
 @import '../node_modules/bootstrap/scss/mixins';
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
@@ -6,7 +8,7 @@
 @import './sass/barlow';
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2.1em;
 }
 
 h2 {
@@ -26,6 +28,24 @@ body {
 @include media-breakpoint-up(sm) {
   body {
     font-size: 110%;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  body {
+    font-size: 120%;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  body {
+    font-size: 130%;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  body {
+    font-size: 140%;
   }
 }
 
