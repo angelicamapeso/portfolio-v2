@@ -1,41 +1,39 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../img/logo_maroon.svg";
+import logo from "../../img/logo_white.svg";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import { ReactComponent as Logo } from "../../img/logo_white.svg";
 
-import "./style.css";
+import "./style.scss";
 
 function Header() {
   return (
     <header>
-      <Navbar expand="lg" bg="light">
+      <nav id="main-nav" className="bg-dark-maroon">
         <Navbar.Brand>
           <Link to="/">
-            <img src={logo} width="50" height="50" alt="Home" loading="lazy" />
+            <Logo id="nav-logo" />
           </Link>
         </Navbar.Brand>
-        <Navbar.Toggle id="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-          <Nav className="align-items-end">
-            <li className="nav-item">
-              <Link to="/portfolio" className="nav-link h5 mb-0 link">
-                Portfolio
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/about" className="nav-link h5 mb-0 link">
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/contact" className="nav-link h5 mb-0 link">
-                Contact
-              </Link>
-            </li>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+        <Nav className="align-items-end">
+          <Nav.Item>
+            <Link to="/portfolio" className="nav-link">
+              Portfolio
+            </Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Link to="/about" className="nav-link">
+              About
+            </Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Link to="/contact" className="nav-link">
+              Contact
+            </Link>
+          </Nav.Item>
+        </Nav>
+      </nav>
     </header>
   );
 }

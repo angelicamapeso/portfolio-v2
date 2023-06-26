@@ -1,0 +1,35 @@
+@import '../../sass/variables';
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 2rem 1rem 2rem;
+
+  .nav-item {
+    margin-right: 1.5rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .nav-link {
+    color: $mint;
+    text-transform: uppercase;
+    padding: 0;
+  }
+
+  .nav-link:hover {
+    color: $red;
+    border-bottom: 1px solid $mint;
+  }
+}
+
+#nav-logo {
+  color: $mint;
+
+  max-width: 40px;
+  max-height: 40px;
+}
