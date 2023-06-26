@@ -27,6 +27,6 @@ export const MULTIMEDIA_SECTION = {
   tags: {
     C2PLUS_TAG: "C++",
     UNITY_TAG: "Unity",
-    THREE_D_WEB_TAG: "3D Web",
+    VR_WEB_TAG: "VR Web",
   },
 };
