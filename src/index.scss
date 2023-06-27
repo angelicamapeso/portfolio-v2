@@ -55,7 +55,7 @@ body {
 /* Circle */
 .circle-separator {
   content: '';
-  display: inline-block;
+  display: block;
   width: 0.25em;
   height: 0.25em;
   border-radius: 50%;
@@ -140,6 +140,27 @@ a:hover {
 
 .icon-link i {
   margin-right: 0.5em;
+}
+
+.project-repo {
+  color: $dark-green;
+  padding: 0.1em 0.5em;
+  border: 1px solid $dark-green;
+  border-radius: 1em;
+  transition: all 0.5s ease;
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+
+  i {
+    display: inline-block;
+  }
+}
+
+.project-repo:hover {
+  background-color: $dark-green;
+  color: $mint;
+  text-decoration: none;
 }
 
 @include media-breakpoint-up(sm) {

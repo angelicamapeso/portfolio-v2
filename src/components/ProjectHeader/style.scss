@@ -1,0 +1,66 @@
+@import '../../../node_modules/bootstrap/scss/mixins';
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/variables';
+@import '../../sass/variables';
+
+#project-header {
+  display: flex;
+  flex-direction: column;
+
+  #title-line, #image-preview {
+    display: flex;
+    padding: 5%;
+  }
+
+  #image-preview img {
+    width: 100%;
+  }
+
+  #title-line {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+
+    h1 {
+      display: flex;
+      align-items: center;
+
+      #id {
+        color: $dark-green;
+      }
+
+      .circle-separator {
+        background-color: $red;
+      }
+
+      #title-text {
+        color: $maroon;
+      }
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+
+    .project-repo {
+      font-size: 0.9em;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  #project-header {
+    flex-direction: row;
+
+    #title-line {
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    #image-preview {
+      order: 2;
+    }
+  }
+}

@@ -33,6 +33,7 @@
     flex-wrap: nowrap;
     overflow-x: scroll;
     align-items: center;
+    align-content: flex-start;
   }
 
   #category-filters::-webkit-scrollbar {

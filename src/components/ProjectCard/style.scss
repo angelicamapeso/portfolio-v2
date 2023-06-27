@@ -62,27 +62,6 @@ div.card {
     font-size: 0.8em;
   }
 
-  .project-repo {
-    color: $dark-green;
-    padding: 0.1em 0.5em;
-    border: 1px solid $dark-green;
-    border-radius: 1em;
-    transition: all 0.5s ease;
-    display: flex;
-    align-items: center;
-    margin-right: 1em;
-
-    i {
-      display: inline-block;
-    }
-  }
-
-  .project-repo:hover {
-    background-color: $dark-green;
-    color: $mint;
-    text-decoration: none;
-  }
-
   .project-about {
     text-align: right;
     display: flex;
