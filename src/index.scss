@@ -7,12 +7,13 @@
 @import './sass/variables';
 @import './sass/barlow';
 
+/* Text style and sizing */
 h1 {
   font-size: 2.1em;
 }
 
 h2 {
-  font-size: 1.875em;
+  font-size: 1.5em;
 }
 
 p {
@@ -94,6 +95,23 @@ body {
   background-color: #33121c;
   border: 2px solid #33121c;
   color: #f5d5e1;
+}
+
+.custom-btn.btn-dark {
+  background-color: transparent;
+  border: 1px solid $dark-maroon;
+  font-weight: 500;
+  color: $dark-green;
+}
+
+.custom-btn.btn-dark:not(:disabled):not(.disabled).active {
+  background-color: $dark-maroon;
+  color: $mint;
+  border: none;
+}
+
+.custom-btn:not(:disabled):not(.disabled).active:focus {
+  box-shadow: none;
 }
 
 /*Links with icons*/
