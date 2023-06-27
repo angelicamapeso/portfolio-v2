@@ -44,8 +44,22 @@
       font-size: 1.1em;
     }
 
-    .project-repo {
-      font-size: 0.9em;
+    .project-repo, #project-tag-list, #project-links {
+      font-size: 0.8em;
+    }
+
+    #project-tag-list {
+      margin-bottom: 1em;
+    }
+
+    #project-links {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      .project-url {
+        border: 1px solid $maroon;
+      }
     }
   }
 }
@@ -57,6 +71,10 @@
     #title-line {
       align-items: flex-start;
       text-align: left;
+
+      #project-links {
+        justify-content: space-between;
+      }
     }
 
     #image-preview {

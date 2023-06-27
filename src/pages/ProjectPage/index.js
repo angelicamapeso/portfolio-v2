@@ -6,7 +6,7 @@ import NotFound from "../NotFound";
 import ProjectHeader from "../../components/ProjectHeader";
 import ProjectBody from "../../components/ProjectBody";
 import { getProjectByInfoPage } from "../../projects";
-import "./style.css";
+import "./style.scss";
 
 function ProjectPage() {
   const { name } = useParams();
@@ -20,8 +20,10 @@ function ProjectPage() {
   } else {
     return (
       <Page title={currentProject.title} description={currentProject.tagline}>
-        <ProjectHeader project={currentProject} />
-        <ProjectBody project={currentProject} />
+        <div id="project-page">
+          <ProjectHeader project={currentProject} />
+          <ProjectBody project={currentProject} />
+        </div>
       </Page>
     );
   }

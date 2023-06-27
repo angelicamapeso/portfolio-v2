@@ -33,7 +33,7 @@ function ProjectCard({ project }) {
           </div>
           <div className="project-navigation">
             {project.repo ?
-              <a className="project-repo" href={project.repo}>
+              <a className="dark-green-link" href={project.repo}>
                 <i className="fab fa-github mr-2" aria-hidden="true"></i>Source Code
               </a> : null
             }

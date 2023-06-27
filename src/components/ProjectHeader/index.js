@@ -21,11 +21,22 @@ function ProjectHeader({ project }) {
             <span id="title-text">{project.title}</span>
           </h1>
           <p>{project.tagline}</p>
-          {project.repo ?
-            <a className="project-repo" href={project.repo}>
-              <i className="fab fa-github mr-2" aria-hidden="true"></i>Source Code
-            </a> : null
-          }
+          <div id="project-tag-list">
+            {project.tags.map((tag) => <p className="project-tag">{`#${tag}`}</p>)}
+          </div>
+          <div id="project-links">
+            {project.repo ?
+              <a className="dark-green-link" href={project.repo}>
+                <i className="fab fa-github mr-2" aria-hidden="true"></i>Source Code
+              </a> : null
+            }
+            {
+              project.url ?
+                <a className="dark-maroon-link" href={project.url}>
+                  <i className="fab fa-github mr-2" aria-hidden="true"></i>Visit Site
+                </a> : null
+            }
+          </div>
         </Col>
       </Row>
     </Container>
