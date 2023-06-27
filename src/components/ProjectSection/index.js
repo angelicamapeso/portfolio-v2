@@ -35,7 +35,12 @@ export default function ProjectSection({ isPreview, initialCategory }) {
       <Container fluid id="project-header" className="bg-off-white">
         <Row>
           <Col id="header-title" xs={12} sm={4}>
-            {isPreview ? <h2>Here's what I've worked on so far</h2> : <></>}
+            {isPreview ? <h1>Here's what I've worked on so far</h1> :
+              <>
+                <h1><i className="fas fa-briefcase" aria-hidden="true"></i><br />Portfolio</h1>
+                <p>Let me show you what I can do</p>
+              </>
+            }
           </Col>
           <Col id="category-filters">
             {categories.map((category, index) =>
