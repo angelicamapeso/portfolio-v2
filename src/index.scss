@@ -79,24 +79,39 @@ body {
 }
 
 /*Buttons*/
-.btn {
+.custom-btn.btn {
   border-radius: 19px;
   background-color: #781031;
   border: 2px solid #781031;
   color: #f5d5e1;
+  font-weight: 500;
 }
 
-.btn:hover {
+.custom-btn.btn:hover {
   background-color: #33121c;
-  border: 2px solid #33121c;
   color: #f5d5e1;
 }
 
 .custom-btn.btn-dark {
   background-color: transparent;
   border: 1px solid $dark-maroon;
-  font-weight: 500;
   color: $dark-green;
+}
+
+.custom-btn.btn-dark:hover {
+  background-color: $maroon;
+  color: $pink;
+}
+
+.custom-btn.btn-light {
+  background-color: $mint;
+  border: 1px solid $dark-green;
+  color: $dark-green;
+}
+
+.custom-btn.btn-light:hover {
+  background-color: $dark-green;
+  color: $mint;
 }
 
 .custom-btn.btn-dark:not(:disabled):not(.disabled).active {

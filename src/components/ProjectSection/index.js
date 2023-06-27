@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+
+import ProjectCard from "../ProjectCard";
+
 import "./style.scss";
 
 import categories, { getCategory } from "../../projects/tags.js";
 import { getProjectsByCategory } from "../../projects";
-import Button from "react-bootstrap/Button";
-import ProjectCard from "../ProjectCard";
 
 export default function ProjectSection({ isPreview, initialCategory }) {
   const [selectedCategory, setSelectedCategory] = useState(initialCategory ? getCategory(initialCategory) : categories[0]);
@@ -63,6 +65,20 @@ export default function ProjectSection({ isPreview, initialCategory }) {
             />
           )}
         </Row>
+        {projectsToDisplay.length < allProjectsUnderCategory.length ?
+          <Row>
+            <Col className="see-more">
+              <Button
+                variant="light"
+                className="custom-btn"
+                onClick={() => setProjectsToDisplay(allProjectsUnderCategory.slice(0, projectsToDisplay.length + 3))}
+              >
+                See more <i className="fas fa-chevron-down" aria-hidden="true"></i>
+              </Button>
+            </Col>
+          </Row>
+          : null}
+
       </Container>
     </>
   );

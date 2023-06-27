@@ -51,6 +51,15 @@
       margin-bottom: 0.25em;
     }
   }
+
+  .see-more {
+    display: flex;
+    justify-content: center;
+    
+    button i {
+      margin-left: 1em;
+    }
+  }
 }
 
 @include media-breakpoint-up(sm) {
