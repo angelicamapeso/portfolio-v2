@@ -15,7 +15,7 @@ import { PHOTOSHOP_TECH, WACOM_TABLET_TECH } from "../graphicIllustration_tech";
 
 const { ILLUSTRATION_TAG } = GRAPHIC_DESIGN_ILLUSTRATION_SECTION.tags;
 
-export const survivalOfTheFittest_display = {
+export const survivalOfTheFittest = {
   title: "Survival of the Fittest",
   infoPage: "/survival-of-the-fittest",
   tagline:
