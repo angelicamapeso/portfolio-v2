@@ -19,4 +19,9 @@ export function getProjectsByCategory(category) {
   return selectedProjects;
 }
 
+export function getProjectByInfoPage(infoPage) {
+  const selectedProject = taggedProjects.find(project => project.infoPage.slice(1) === infoPage);
+  return selectedProject;
+}
+
 export default taggedProjects;

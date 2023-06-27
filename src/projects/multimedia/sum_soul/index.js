@@ -32,12 +32,12 @@ export const sumSoul = {
           <p>
             There are several aspects to this game, but I focused on its
             programming. Using unity, I worked on the following features:
-            <ul>
-              <li>The Beat Bar</li>
-              <li>The game's second level</li>
-              <li>The game's puzzles</li>
-            </ul>
           </p>
+          <ul>
+            <li>The Beat Bar</li>
+            <li>The game's second level</li>
+            <li>The game's puzzles</li>
+          </ul>
           <p>
             The most difficult feature I worked on was the beat bar. The beat
             bar is the mechanism at the bottom of the screen that the player

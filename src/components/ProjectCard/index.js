@@ -2,33 +2,48 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import "./style.css";
+import { ReactComponent as Arrow } from "../../img/arrow_down_white.svg";
+import "./style.scss";
 
-function ProjectCard(props) {
+function ProjectCard({ project }) {
   return (
     <Col xs={12} sm={6} lg={4}>
       <Card>
-        <Link
-          to={"/portfolio" + props.project.infoPage}
-          aria-label={props.project.title + " website"}
-        >
-          <Card.Img
-            variant="top"
-            src={props.project.img}
-            className="mb-3"
-            alt={props.project.title}
-          />
-        </Link>
-        <Card.Body className="left-border-line">
-          <Card.Title className="mb-0">{props.project.title}</Card.Title>
-          <Card.Text>{props.project.tagline}</Card.Text>
-          <div className="mt-auto d-flex flex-column justify-content-end">
-            <p className="mb-0">
-              <a href={props.project.repo} className="h5 icon-link">
-                <i className="fab fa-github mr-2" aria-hidden="true"></i>View
-                source code
-              </a>
-            </p>
+        <Card.Title className="project-title-line left-border-line">
+          <span className="project-id">{project.id}</span>
+          <span className="circle-separator" aria-hidden="true"></span>
+          <span className="project-title">{project.title}</span>
+        </Card.Title>
+        <Card.Img
+          variant="top"
+          src={project.img}
+          alt={project.title}
+        />
+        <Card.Body>
+          <Card.Text>{project.tagline}</Card.Text>
+          <div className="project-tag-list">
+            {project.tags?.map((tag, index) =>
+              <p
+                className="project-tag"
+                key={index}
+              >
+                {`#${tag}`}
+              </p>
+            )}
+          </div>
+          <div className="project-navigation">
+            {project.repo ?
+              <a className="project-repo" href={project.repo}>
+                <i className="fab fa-github mr-2" aria-hidden="true"></i>Source Code
+              </a> : null
+            }
+            <Link
+              className="project-about"
+              to={"/portfolio" + project.infoPage}
+              aria-label={`Learn more about ${project.title}`}
+            >
+              Learn more <Arrow className="more-arrow" />
+            </Link>
           </div>
         </Card.Body>
       </Card>

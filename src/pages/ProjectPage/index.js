@@ -5,14 +5,13 @@ import * as projects from "../../projects";
 import NotFound from "../NotFound";
 import ProjectHeader from "../../components/ProjectHeader";
 import ProjectBody from "../../components/ProjectBody";
+import { getProjectByInfoPage } from "../../projects";
 import "./style.css";
 
 function ProjectPage() {
   const { name } = useParams();
   const projArray = Object.values(projects);
-  const currentProject = projArray.find(
-    (project) => project.infoPage.slice(1) === name
-  );
+  const currentProject = getProjectByInfoPage(name);
 
   console.log(projArray);
 

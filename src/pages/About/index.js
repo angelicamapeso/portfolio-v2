@@ -55,20 +55,20 @@ function About() {
                   </p>
                   <p>
                     Courses that fed my creative side included:
-                    <ul>
-                      <li>Game Design</li>
-                      <li>User Experince and User Interface Design</li>
-                      <li>3D & 2D Modeling and Animation</li>
-                    </ul>
                   </p>
+                  <ul>
+                    <li>Game Design</li>
+                    <li>User Experince and User Interface Design</li>
+                    <li>3D & 2D Modeling and Animation</li>
+                  </ul>
                   <p>
                     While courses that fed my logical side included:
-                    <ul>
-                      <li>Web Development</li>
-                      <li>Programming in Unity</li>
-                      <li>Object-Oriented Programing with C++</li>
-                    </ul>
                   </p>
+                  <ul>
+                    <li>Web Development</li>
+                    <li>Programming in Unity</li>
+                    <li>Object-Oriented Programing with C++</li>
+                  </ul>
                   <p>
                     When I came across web development, I decided to deepen my
                     knowledge and completed the{" "}
@@ -78,7 +78,7 @@ function About() {
                     during my undergrad. Completing this bootcamp marked one of
                     the busiest parts of my life. However, it was well worth it.
                   </p>
-                  <p class="lead mt-5">
+                  <p className="lead mt-5">
                     I'm confident to say that my background in design has made
                     me a well-rounded developer that is very conscious about
                     user experience and making code changes that are easy for
@@ -92,7 +92,7 @@ function About() {
                     can't get enough of for a while before returning back to the
                     real world. But I'm sure that's normal … right?
                   </p>
-                  <p class="mb-5">
+                  <p className="mb-5">
                     Anyway, I'm always open to talk web development or design,
                     so if you're still reading this - let's get in touch!
                   </p>

@@ -21,13 +21,13 @@ export const canadaBuys = {
         The aim of the visual design was to push Government web pages in a new
         and innovative direction, while also being reflective of CanadaBuys'
         core values and goals:
-        <ul>
-          <li>Economic growth</li>
-          <li>Modernization</li>
-          <li>Simplicity</li>
-          <li>Green Procurement</li>
-        </ul>
       </p>
+      <ul>
+        <li>Economic growth</li>
+        <li>Modernization</li>
+        <li>Simplicity</li>
+        <li>Green Procurement</li>
+      </ul>
       <p>
         The idea of money best represented economic growth and from this, the
         CanadaBuys ambassadors were born. Each ambassador was taken from the
