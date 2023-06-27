@@ -12,3 +12,8 @@
   padding-bottom: 100%;
   display: block;
 }
+
+#about-page p {
+  font-weight: normal;
+  font-size: 0.9em;
+}

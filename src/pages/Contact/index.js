@@ -29,7 +29,7 @@ function Contact() {
         <Row>
           <Col>
             <h1 className="display-4 left-border-title mb-4">Contact</h1>
-            <div className="left-border-line">
+            <div>
               <Row>
                 <Col
                   as="form"
@@ -72,6 +72,7 @@ function Contact() {
                   </Form.Group>
                   <Button
                     variant="dark"
+                    className="custom-btn"
                     type="submit"
                     disabled={state.submitting}
                   >
@@ -99,7 +100,7 @@ function Contact() {
                     <ListGroup.Item>
                       <p className="h5 font-weight-normal mb-0">
                         <a href="tel:647-455-5788" className="icon-link">
-                          <i className="fas fa-phone" aria-hidden="true"></i>
+                          <i className="fas fa-phone  mr-2" aria-hidden="true"></i>
                           (647) 455-5788
                         </a>
                       </p>
@@ -110,7 +111,7 @@ function Contact() {
                           href="mailto:angelica.mapeso@gmail.com"
                           className="icon-link"
                         >
-                          <i className="fas fa-envelope" aria-hidden="true"></i>
+                          <i className="fas fa-envelope mr-2" aria-hidden="true"></i>
                           angelica.mapeso@gmail.com
                         </a>
                       </p>

@@ -17,7 +17,7 @@ function About() {
         <Row>
           <Col>
             <h1 className="mb-4 display-4 left-border-title">Hey!</h1>
-            <div className="left-border-line">
+            <div id="about-page">
               <Row>
                 <Col xs={12} md={4} className="order-md-1 mb-5">
                   <div id="about-img"></div>
@@ -118,7 +118,7 @@ function About() {
                   View my Resume for more information
                 </a>
               </p>
-              <Link to="/contact" className="btn btn-dark" role="button">
+              <Link to="/contact" className="custom-btn btn btn-dark" role="button">
                 Let's get in touch
                 <i
                   className="fas fa-long-arrow-alt-right ml-2"
