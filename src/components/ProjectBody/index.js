@@ -61,7 +61,36 @@ function ProjectBody({ project }) {
           </Row>
         </Container>) : null
       }
-
+      {project.team ?
+        <Container className="team" fluid>
+          <Row>
+            <Col>
+              <h2><i className="fas fa-users" aria-hidden="true"></i>Team Members</h2>
+              <div className="team-list dark-maroon-bubble">
+                {project.team.map((teamMember) => <a href={teamMember.link}>{teamMember.name}</a>)}
+              </div>
+            </Col>
+          </Row>
+        </Container> : null
+      }
+      {
+        project.technology ?
+          <Container className="technology" fluid>
+            <Row>
+              <Col>
+                <h2><i className="fas fa-fire" aria-hidden="true"></i>Technology</h2>
+                <div className="technology-list dark-maroon-bubble">
+                  {project.technology.map((technology) =>
+                    <div>
+                      <h3>{technology.title}</h3>
+                      {technology.items.map((item) => <a href={item.link}>{item.name}</a>)}
+                    </div>
+                  )}
+                </div>
+              </Col>
+            </Row>
+          </Container> : null
+      }
     </div>
   );
 }

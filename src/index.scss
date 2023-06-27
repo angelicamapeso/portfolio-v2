@@ -180,6 +180,13 @@ a:hover {
   font-size: 0.8em;
 }
 
+/* Bubble */
+.dark-maroon-bubble {
+  padding: 1em;
+  border-radius: 20px 20px 0px 20px;
+  border: 1px solid $dark-maroon;
+}
+
 @include media-breakpoint-up(sm) {
   body {
     font-size: 105%;
