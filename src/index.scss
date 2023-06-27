@@ -27,6 +27,7 @@ p {
 body {
   font-family: 'Barlow', Arial, Helvetica, sans-serif;
   font-size: 100%;
+  font-weight: 500;
   color: $dark-maroon;
 }
 
@@ -128,7 +129,7 @@ a:hover {
 
 @include media-breakpoint-up(sm) {
   body {
-    font-size: 110%;
+    font-size: 105%;
   }
 
   .left-border-line::before {
@@ -140,18 +141,13 @@ a:hover {
 
 @include media-breakpoint-up(md) {
   body {
-    font-size: 120%;
+    font-size: 110%;
   }
 }
 
 @include media-breakpoint-up(lg) {
   body {
-    font-size: 130%;
+    font-size: 115%;
   }
 }
 
-@include media-breakpoint-up(lg) {
-  body {
-    font-size: 140%;
-  }
-}

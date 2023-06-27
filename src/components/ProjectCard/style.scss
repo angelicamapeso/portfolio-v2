@@ -10,7 +10,7 @@ div.card {
   .project-title-line {
     display: flex;
     align-items: center;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 500;
 
     .project-id {
@@ -51,7 +51,7 @@ div.card {
     margin: 0;
     margin-right: 1em;
     font-weight: 500;
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 
   .project-navigation {
@@ -86,6 +86,7 @@ div.card {
     text-align: right;
     display: flex;
     align-items: center;
+    margin-left: auto;
 
     .more-arrow {
       width: 3em;
@@ -95,23 +96,6 @@ div.card {
       transform: rotate(-90deg);
       position: relative;
       top: 0.1em;
-    }
-  }
-}
-
-@include media-breakpoint-up(sm) {
-  div.card {
-
-    .card-text {
-      font-size: 0.8em;
-    }
-
-    .project-tag {
-      font-size: 0.7em;
-    }
-
-    .project-navigation {
-      font-size: 0.7em;
     }
   }
 }
