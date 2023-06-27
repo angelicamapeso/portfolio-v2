@@ -1,7 +1,156 @@
+@import '../../../node_modules/bootstrap/scss/mixins';
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/variables';
 @import '../../sass/variables';
 
 #project-body {
+  p {
+    font-weight: normal;
+    font-size: 0.9em;
+  }
+
+  .container-fluid:nth-child(even) {
+    background-color: white;
+  }
+}
+
+#project-main {
   background-color: $off-white;
   flex-grow: 1;
   padding: 5%;
+
+  #hero-content {
+    margin-bottom: 2em;
+  }
+
+  .content-box {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+  }
+
+  #youtube {
+    .youtube-embed {
+      width: 100%;
+    }
+  }
+
+  #images {
+    &.content-box {
+      flex-wrap: wrap;
+      height: auto;
+    }
+
+    .image-to-expand {
+      margin-right: 1em;
+      height: 150px;
+      margin-bottom: 1em;
+    }
+    .image-to-expand img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.container-fluid.additional-section {
+  padding: 5%;
+}
+
+.additional-section {
+  background-color: $off-white;
+  padding: 5%;
+
+  .additional-section-title {
+    color: $maroon;
+    margin-bottom: 1em;
+  }
+
+  .additional-images {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+
+    .image-to-expand {
+      margin-right: 1em;
+      height: 150px;
+      margin-bottom: 1em;
+    }
+
+    .image-to-expand img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  #project-main {
+
+    .content-box {
+      height: 300px;
+    }
+
+    #images {
+      &.content-box {
+        flex-wrap: wrap;
+        height: auto;
+      }
+
+      .image-to-expand {
+        height: 200px;
+      }
+    }
+
+    #youtube {
+      .youtube-embed {
+        width: 90%;
+      }
+    }
+  }
+
+  .additional-section {
+    .additional-images {
+      .image-to-expand {
+        height: 200px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #project-main {
+    .content-box {
+      height: 300px;
+    }
+
+    #images {
+      &.content-box {
+        flex-wrap: wrap;
+        height: auto;
+      }
+
+      .image-to-expand {
+        height: 250px;
+      }
+    }
+
+    #youtube {
+      .youtube-embed {
+        width: 70%;
+      }
+    }
+  }
+
+  .additional-section {
+    .additional-images {
+      .image-to-expand {
+        height: 250px;
+      }
+    }
+  }
 }

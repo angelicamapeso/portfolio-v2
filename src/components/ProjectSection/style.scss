@@ -4,7 +4,7 @@
 
 @import '../../sass/variables';
 
-#project-header {
+#project-section-header {
   #header-title, #category-filters {
     padding: 8%;
   }
@@ -78,7 +78,7 @@
 }
 
 @include media-breakpoint-up(sm) {
-  #project-header {
+  #project-section-header {
     #header-title, #category-filters {
       padding: 6% 4% 4% 4%;
     }

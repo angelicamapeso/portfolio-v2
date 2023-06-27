@@ -32,7 +32,7 @@ export default function ProjectSection({ isPreview, initialCategory }) {
 
   return (
     <>
-      <Container fluid id="project-header" className="bg-off-white">
+      <Container fluid id="project-section-header" className="bg-off-white">
         <Row>
           <Col id="header-title" xs={12} sm={4}>
             {isPreview ? <h1>Here's what I've worked on so far</h1> :

@@ -4,15 +4,15 @@
 @import '../../sass/variables';
 
 #project-header {
-  display: flex;
-  flex-direction: column;
+  padding: 5%;
 
   #title-line, #image-preview {
     display: flex;
-    padding: 5%;
   }
 
   #image-preview img {
+    object-fit: contain;
+    object-position: center top;
     width: 100%;
   }
 
@@ -66,8 +66,6 @@
 
 @include media-breakpoint-up(sm) {
   #project-header {
-    flex-direction: row;
-
     #title-line {
       align-items: flex-start;
       text-align: left;
@@ -79,6 +77,19 @@
 
     #image-preview {
       order: 2;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #project-header {
+    .row {
+      flex-direction: column;
+    }
+
+
+    #image-preview {
+      order:-1;
     }
   }
 }

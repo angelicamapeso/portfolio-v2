@@ -14,7 +14,7 @@ function ProjectHeader({ project }) {
             alt={project.title}
           />
         </Col>
-        <Col id="title-line" xs={12} sm={6}>
+        <Col id="title-line" xs={12} sm={6} md={12}>
           <h1>
             <span id="id">{project.id}</span>
             <span className="circle-separator" aria-hidden="true"></span>
