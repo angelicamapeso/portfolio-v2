@@ -52,11 +52,12 @@
   }
 
   p#current {
-    font-size: 1.3em;
+    font-size: 1.1em;
+    line-height: 1.3;
   }
 
   p#full-stack-tag {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   #role, #background {
@@ -68,6 +69,7 @@
     height: 50px;
     color: $white;
     position: relative;
+    margin-bottom: 20%;
 
     animation: bounce 0.8s ease-in-out infinite;
     animation-direction: alternate;
