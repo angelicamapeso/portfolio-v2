@@ -1,11 +1,13 @@
-@import '../../../node_modules/bootstrap/scss/mixins';
-@import '../../../node_modules/bootstrap/scss/functions';
-@import '../../../node_modules/bootstrap/scss/variables';
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
 
-@import '../../sass/variables';
+@import "../../sass/variables";
+@import "../../sass/animations";
 
 #project-section-header {
-  #header-title, #category-filters {
+  #header-title,
+  #category-filters {
     padding: 8%;
   }
 
@@ -48,6 +50,11 @@
   }
 
   .category-btn {
+    &:not(.active) {
+      @include popup-animation(null, -0.25em, $red);
+    }
+
+    padding: 0.5em 1em;
     margin: 0.5em;
     font-size: 1em;
     white-space: nowrap;
@@ -79,7 +86,8 @@
 
 @include media-breakpoint-up(sm) {
   #project-section-header {
-    #header-title, #category-filters {
+    #header-title,
+    #category-filters {
       padding: 6% 4% 4% 4%;
     }
 

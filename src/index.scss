@@ -82,27 +82,33 @@ body {
 
 /*Buttons*/
 .custom-btn.btn {
-  border-radius: 19px;
+  border-radius: 2em;
   background-color: #781031;
   border: 2px solid #781031;
   color: #f5d5e1;
   font-weight: 500;
+
+  transition: all 0.25s ease-out;
 }
 
 .custom-btn.btn:hover {
   background-color: #33121c;
   color: #f5d5e1;
+
+  transition: all 0.25s ease-out;
 }
 
 .custom-btn.btn-dark {
-  background-color: transparent;
+  background-color: $off-white;
   border: 1px solid $dark-maroon;
   color: $dark-green;
-}
 
-.custom-btn.btn-dark:hover {
-  background-color: $maroon;
-  color: $pink;
+  &:hover,
+  &:focus {
+    background-color: $maroon;
+    color: $pink;
+    box-shadow: none;
+  }
 }
 
 .custom-btn.btn-light {
@@ -118,12 +124,12 @@ body {
 
 .custom-btn.btn-dark:not(:disabled):not(.disabled).active {
   background-color: $dark-maroon;
+  border: 1px solid $dark-maroon;
   color: $mint;
-  border: none;
 }
 
 .custom-btn.btn-dark:not(:disabled):not(.disabled).active:focus {
-  box-shadow: 0 0 0 0.2rem $red;
+  box-shadow: 0 0 0 0.175rem $red;
 }
 
 /*Links with icons*/
