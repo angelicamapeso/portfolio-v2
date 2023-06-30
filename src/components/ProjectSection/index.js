@@ -12,7 +12,9 @@ import categories, { getCategory } from "../../projects/tags.js";
 import { getProjectsByCategory } from "../../projects";
 
 export default function ProjectSection({ isPreview, initialCategory }) {
-  const [selectedCategory, setSelectedCategory] = useState(initialCategory ? getCategory(initialCategory) : categories[0]);
+  const [selectedCategory, setSelectedCategory] = useState(
+    initialCategory ? getCategory(initialCategory) : categories[0]
+  );
   const [allProjectsUnderCategory, setAllProjectsUnderCategory] = useState([]);
   const [projectsToDisplay, setProjectsToDisplay] = useState([]);
 
@@ -35,15 +37,21 @@ export default function ProjectSection({ isPreview, initialCategory }) {
       <Container fluid id="project-section-header" className="bg-off-white">
         <Row>
           <Col id="header-title" xs={12} sm={4}>
-            {isPreview ? <h1>Here's what I've worked on so far</h1> :
+            {isPreview ? (
+              <h1>Here's what I've worked on so far</h1>
+            ) : (
               <>
-                <h1><i className="fas fa-briefcase" aria-hidden="true"></i><br />Portfolio</h1>
+                <h1>
+                  <i className="fas fa-briefcase" aria-hidden="true"></i>
+                  <br />
+                  Portfolio
+                </h1>
                 <p>Let me show you what I can do</p>
               </>
-            }
+            )}
           </Col>
           <Col id="category-filters">
-            {categories.map((category, index) =>
+            {categories.map((category, index) => (
               <Button
                 key={index}
                 variant="dark"
@@ -53,37 +61,46 @@ export default function ProjectSection({ isPreview, initialCategory }) {
               >
                 {category.title}
               </Button>
-            )}
+            ))}
           </Col>
         </Row>
       </Container>
 
       <Container fluid id="project-list" className="bg-pink">
         <Row>
-          <Col><h3><i className={selectedCategory.icon} aria-hidden="true" /> {selectedCategory.title}</h3></Col>
+          <Col>
+            <h3>
+              <i className={selectedCategory.icon} aria-hidden="true" />{" "}
+              {selectedCategory.title}
+            </h3>
+          </Col>
         </Row>
-        <Row>
-          {projectsToDisplay.map((project) =>
-            <ProjectCard
-              key={project.id}
-              project={project}
-            />
-          )}
+        <Row className="project-list-row">
+          {projectsToDisplay.map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
         </Row>
-        {projectsToDisplay.length < allProjectsUnderCategory.length ?
+        {projectsToDisplay.length < allProjectsUnderCategory.length ? (
           <Row>
             <Col className="see-more">
               <Button
                 variant="light"
-                className="custom-btn"
-                onClick={() => setProjectsToDisplay(allProjectsUnderCategory.slice(0, projectsToDisplay.length + 3))}
+                className="custom-btn mt-3"
+                onClick={() =>
+                  setProjectsToDisplay(
+                    allProjectsUnderCategory.slice(
+                      0,
+                      projectsToDisplay.length + 3
+                    )
+                  )
+                }
               >
-                See more <i className="fas fa-chevron-down" aria-hidden="true"></i>
+                See more{" "}
+                <i className="fas fa-chevron-down" aria-hidden="true"></i>
               </Button>
             </Col>
           </Row>
-          : null}
-
+        ) : null}
       </Container>
     </>
   );

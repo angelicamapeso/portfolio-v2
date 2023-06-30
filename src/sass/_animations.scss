@@ -1,3 +1,4 @@
+// Keyframes
 @keyframes bounce {
   0% {
     transform: translateY(0%);
@@ -7,6 +8,7 @@
   }
 }
 
+// Mixins
 @mixin outline-box-animation(
   $animation-duration,
   $border-size,
