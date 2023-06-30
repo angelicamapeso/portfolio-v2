@@ -8,7 +8,7 @@ import "./style.scss";
 function ProjectCard({ project, isPreview }) {
   return (
     <Col xs={12} sm={6} lg={4}>
-      <Card>
+      <Card className="mb-2">
         <Link
           className="image-link"
           to={"/portfolio" + project.infoPage}
