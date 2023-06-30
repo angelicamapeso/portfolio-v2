@@ -1,0 +1,23 @@
+@mixin bubble(
+  $padding,
+  $border-radius-size,
+  $direction,
+  $background-color,
+  $outline
+) {
+  $border-radius-setting: map-get(
+    (
+      top-left: 0 $border-radius-size $border-radius-size $border-radius-size,
+      top-right: $border-radius-size 0 $border-radius-size $border-radius-size,
+      bottom-right: $border-radius-size $border-radius-size 0
+        $border-radius-size,
+      bottom-left: $border-radius-size $border-radius-size $border-radius-size 0,
+    ),
+    $direction
+  );
+
+  padding: $padding;
+  border-radius: $border-radius-setting;
+  background-color: $background-color;
+  border: $outline;
+}
