@@ -1,7 +1,7 @@
-@import '../../../node_modules/bootstrap/scss/mixins';
-@import '../../../node_modules/bootstrap/scss/functions';
-@import '../../../node_modules/bootstrap/scss/variables';
-@import '../../sass/variables';
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../sass/variables";
 
 #project-body {
   p {
@@ -147,7 +147,6 @@
 
 @include media-breakpoint-up(sm) {
   #project-main {
-
     .content-box {
       height: 300px;
     }
@@ -191,7 +190,6 @@
       grid-template-columns: 1fr 1fr;
     }
   }
-
 }
 
 @include media-breakpoint-up(md) {
@@ -238,5 +236,5 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
     }
-  } 
+  }
 }
