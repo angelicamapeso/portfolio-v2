@@ -9,6 +9,8 @@ div.card {
   height: 100%;
   background-color: $pink;
 
+  animation: fade-slide-in 0.5s ease-out 1;
+
   .image-link {
     @include outline-box-animation($animation-duration, 1px, 5px, $maroon);
 

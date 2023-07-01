@@ -1,8 +1,9 @@
-@import '../../../node_modules/bootstrap/scss/mixins';
-@import '../../../node_modules/bootstrap/scss/functions';
-@import '../../../node_modules/bootstrap/scss/variables';
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
 
-@import '../../sass/variables';
+@import "../../sass/variables";
+@import "../../sass/animations";
 
 #hero-banner {
   height: 100%;
@@ -42,7 +43,9 @@
   flex-direction: column;
   color: white;
 
-  h1, #role, #full-stack-tag {
+  h1,
+  #role,
+  #full-stack-tag {
     text-transform: uppercase;
   }
 
@@ -58,9 +61,12 @@
 
   p#full-stack-tag {
     font-size: 1em;
+
+    animation: fade-slide-in 1s ease-in-out 1;
   }
 
-  #role, #background {
+  #role,
+  #background {
     color: $mint;
   }
 
@@ -119,14 +125,15 @@
     }
 
     #current {
-     line-height: 1.2;
+      line-height: 1.2;
     }
 
     #role {
       color: $red;
     }
 
-    #background, #full-stack-tag {
+    #background,
+    #full-stack-tag {
       color: $dark-green;
     }
 
