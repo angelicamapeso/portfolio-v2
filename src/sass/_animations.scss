@@ -29,6 +29,7 @@
   $part-duration: $animation-duration / 4;
 
   position: relative;
+  border-radius: $border-radius;
 
   &::before,
   &::after {
