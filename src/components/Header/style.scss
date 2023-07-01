@@ -9,6 +9,8 @@
   padding: 0.75rem 2rem 0.75rem 2rem;
 
   .nav-item {
+    @include underline-animation(0.5s, 1px, $mint);
+
     margin-right: 1.5rem;
 
     &:last-child {
@@ -17,8 +19,6 @@
   }
 
   .nav-link {
-    @include underline-animation(0.5s, 1px, $mint);
-
     color: $mint;
     font-size: 0.8em;
     font-weight: 500;
@@ -29,7 +29,7 @@
     &:focus {
       color: $red;
       border-bottom: none;
-      padding-bottom: 0.5em;
+      transform: translateY(-0.2em);
     }
   }
 }
