@@ -19,6 +19,24 @@
   }
 }
 
+@keyframes wave-hand {
+  0% {
+    transform: rotate(45deg);
+  }
+  20% {
+    transform: rotate(60deg);
+  }
+  40% {
+    transform: rotate(45deg);
+  }
+  60% {
+    transform: rotate(60deg);
+  }
+  80% {
+    transform: rotate(45deg);
+  }
+}
+
 // Mixins
 @mixin outline-box-animation(
   $animation-duration,

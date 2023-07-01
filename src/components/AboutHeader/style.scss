@@ -2,6 +2,8 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "../../../node_modules/bootstrap/scss/variables";
 
+@import "../../sass/animations";
+
 #about-section-header {
   display: flex;
   flex-direction: column;
@@ -21,7 +23,11 @@
     text-align: center;
 
     .fa-hand-paper {
+      margin-bottom: 0.2em;
       transform: rotate(45deg);
+      transform-origin: center bottom;
+
+      animation: wave-hand 1s ease-in-out 0s infinite;
     }
   }
 
@@ -45,7 +51,6 @@
   }
 
   p {
-    display: none;
     font-size: 1.1em;
     text-align: center;
   }
@@ -54,24 +59,49 @@
 @include media-breakpoint-up(sm) {
   #about-section-header {
     .about-section-title-img {
+      align-items: flex-start;
+    }
+
+    #about-section-title-line {
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    p {
+      font-size: 0.8em;
+      text-align: left;
+    }
+
+    .headshot-frame {
+      width: 100%;
+      padding-top: 100%;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #about-section-header {
+    .headshot-frame {
+      width: 75%;
+      padding-top: 75%;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  #about-section-header {
+    .about-section-title-img {
       flex-direction: row;
       align-items: flex-end;
     }
 
     #about-section-title-line {
       margin-right: auto;
-      align-items: flex-start;
-      text-align: left;
     }
 
     .headshot-frame {
-      width: 25%;
-      padding-top: 25%;
-    }
-
-    p {
-      display: block;
-      text-align: left;
+      width: 50%;
+      padding-top: 50%;
     }
   }
 }

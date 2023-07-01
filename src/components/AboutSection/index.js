@@ -7,11 +7,11 @@ import "./style.scss";
 
 export default function AboutSection({ isPreview }) {
   return (
-    <div id="about-section">
-      <AboutHeader isPreview />
+    <Container fluid id="about-section">
       <Row>
+        <AboutHeader isPreview />
         <Col></Col>
       </Row>
-    </div>
+    </Container>
   );
 }
