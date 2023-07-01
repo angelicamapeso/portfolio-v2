@@ -34,8 +34,12 @@ function ProjectBody({ project }) {
               ) : null}
               {project.images ? (
                 <div id="images" className="hero content-box">
-                  {project.images.map((image) => (
-                    <ImageToExpand src={image.img} alt={image.description} />
+                  {project.images.map((image, index) => (
+                    <ImageToExpand
+                      key={index}
+                      src={image.img}
+                      alt={image.description}
+                    />
                   ))}
                 </div>
               ) : null}
@@ -47,16 +51,17 @@ function ProjectBody({ project }) {
         </Row>
       </Container>
       {project.additionalSections
-        ? project.additionalSections.map((section) => (
-            <Container className="additional-section" fluid>
+        ? project.additionalSections.map((section, index) => (
+            <Container key={index} className="additional-section" fluid>
               <Row>
                 <Col>
                   <h2 className="additional-section-title">{section.title}</h2>
                   {section.description}
                   {section.images ? (
                     <div className="additional-images">
-                      {section.images.map((image) => (
+                      {section.images.map((image, index) => (
                         <ImageToExpand
+                          key={index}
                           src={image.img}
                           alt={image.description}
                         />
@@ -76,8 +81,10 @@ function ProjectBody({ project }) {
                 <i className="fas fa-users" aria-hidden="true"></i>Team Members
               </h2>
               <div className="team-list dark-maroon-bubble">
-                {project.team.map((teamMember) => (
-                  <a href={teamMember.link}>{teamMember.name}</a>
+                {project.team.map((teamMember, index) => (
+                  <a key={index} href={teamMember.link}>
+                    {teamMember.name}
+                  </a>
                 ))}
               </div>
             </Col>
@@ -92,11 +99,13 @@ function ProjectBody({ project }) {
                 <i className="fas fa-fire" aria-hidden="true"></i>Technology
               </h2>
               <div className="technology-list dark-maroon-bubble">
-                {project.technology.map((technology) => (
-                  <div>
+                {project.technology.map((technology, index) => (
+                  <div key={index}>
                     <h3>{technology.title}</h3>
-                    {technology.items.map((item) => (
-                      <a href={item.link}>{item.name}</a>
+                    {technology.items.map((item, index) => (
+                      <a key={index} href={item.link}>
+                        {item.name}
+                      </a>
                     ))}
                   </div>
                 ))}

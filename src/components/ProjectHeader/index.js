@@ -9,10 +9,7 @@ function ProjectHeader({ project }) {
     <Container id="project-header" className="bg-pink" fluid>
       <Row>
         <Col id="image-preview">
-          <img
-            src={project.img}
-            alt={project.title}
-          />
+          <img src={project.img} alt={project.title} />
         </Col>
         <Col id="title-line" xs={12} sm={6} md={12}>
           <h1>
@@ -22,20 +19,23 @@ function ProjectHeader({ project }) {
           </h1>
           <p>{project.tagline}</p>
           <div id="project-tag-list">
-            {project.tags.map((tag) => <p className="project-tag">{`#${tag}`}</p>)}
+            {project.tags.map((tag, index) => (
+              <p key={index} className="project-tag">{`#${tag}`}</p>
+            ))}
           </div>
           <div id="project-links">
-            {project.repo ?
+            {project.repo ? (
               <a className="dark-green-link" href={project.repo}>
-                <i className="fab fa-github mr-2" aria-hidden="true"></i>Source Code
-              </a> : null
-            }
-            {
-              project.url ?
-                <a className="dark-maroon-link" href={project.url}>
-                  <i className="fab fa-github mr-2" aria-hidden="true"></i>Visit Site
-                </a> : null
-            }
+                <i className="fab fa-github mr-2" aria-hidden="true"></i>Source
+                Code
+              </a>
+            ) : null}
+            {project.url ? (
+              <a className="dark-maroon-link" href={project.url}>
+                <i className="fab fa-github mr-2" aria-hidden="true"></i>Visit
+                Site
+              </a>
+            ) : null}
           </div>
         </Col>
       </Row>
