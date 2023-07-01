@@ -1,8 +1,8 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import AboutHeader from "../AboutHeader";
+import AboutBody from "../AboutBody";
 import "./style.scss";
 
 export default function AboutSection({ isPreview }) {
@@ -10,7 +10,7 @@ export default function AboutSection({ isPreview }) {
     <Container fluid id="about-section">
       <Row>
         <AboutHeader isPreview />
-        <Col></Col>
+        <AboutBody isPreview />
       </Row>
     </Container>
   );

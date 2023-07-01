@@ -8,6 +8,11 @@ export const PHOTOSHOP_TECH = {
   link: "https://www.adobe.com/ca/products/photoshop.html",
 };
 
+export const FIGMA_TECH = {
+  name: "Figma",
+  link: "https://www.figma.com/",
+};
+
 export const WACOM_TABLET_TECH = {
   name: "Intuous 5 Touch Small Pen Tablet",
   link: "https://www.amazon.com/Wacom-Intuos5-Touch-Tablet-PTH450/dp/B0076HMDQO",

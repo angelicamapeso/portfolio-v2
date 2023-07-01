@@ -4,7 +4,6 @@ import Page from "../../components/Page";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import LinkList from "../../components/LinkList";
 
 import resume from "./mapesoAngelica_resume2023.pdf";
 import { skills } from "./skills.js";
@@ -53,17 +52,13 @@ function About() {
                     seeking to marry my creative and logical sides, and was met
                     with a learning experience that expanded both worlds.
                   </p>
-                  <p>
-                    Courses that fed my creative side included:
-                  </p>
+                  <p>Courses that fed my creative side included:</p>
                   <ul>
                     <li>Game Design</li>
                     <li>User Experince and User Interface Design</li>
                     <li>3D & 2D Modeling and Animation</li>
                   </ul>
-                  <p>
-                    While courses that fed my logical side included:
-                  </p>
+                  <p>While courses that fed my logical side included:</p>
                   <ul>
                     <li>Web Development</li>
                     <li>Programming in Unity</li>
@@ -108,7 +103,6 @@ function About() {
                       ></i>
                       {skill.title}
                     </h2>
-                    <LinkList items={skill.items} />
                   </Col>
                 ))}
               </Row>
@@ -118,7 +112,11 @@ function About() {
                   View my Resume for more information
                 </a>
               </p>
-              <Link to="/contact" className="custom-btn btn btn-dark" role="button">
+              <Link
+                to="/contact"
+                className="custom-btn btn btn-dark"
+                role="button"
+              >
                 Let's get in touch
                 <i
                   className="fas fa-long-arrow-alt-right ml-2"

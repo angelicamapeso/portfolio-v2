@@ -8,9 +8,24 @@ export const REACT_BOOTSTRAP_TECH = {
   link: "https://react-bootstrap.github.io/",
 };
 
+export const ANGULAR_JS_TECH = {
+  name: "AngularJS",
+  link: "https://angularjs.org/",
+};
+
+export const VUE_TECH = {
+  name: "Vue",
+  link: "https://vuejs.org/",
+};
+
 export const BOOTSTRAP_TECH = {
   name: "Bootstrap",
   link: "https://getbootstrap.com/",
+};
+
+export const JQUERY_TECH = {
+  name: "jQuery",
+  link: "https://jquery.com/",
 };
 
 export const FONT_AWESOME_TECH = {

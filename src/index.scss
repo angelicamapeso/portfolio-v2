@@ -22,7 +22,7 @@ h3 {
 }
 
 p {
-  font-size: 0.75em;
+  font-size: 1em;
 }
 
 body {
@@ -198,6 +198,10 @@ a.image-link:hover {
     transparent,
     1px solid $dark-maroon
   );
+}
+
+.dark-green-bubble {
+  @include bubble(1em, 1.5em, bottom-right, transparent, 1px solid $dark-green);
 }
 
 @include media-breakpoint-up(sm) {

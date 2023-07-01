@@ -1,0 +1,29 @@
+@import "../../sass/variables";
+
+#about-body {
+  h2,
+  h3,
+  p {
+    margin-bottom: 0;
+  }
+
+  .experience {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    h2 {
+      margin-right: 2em;
+    }
+  }
+
+  .recent-work {
+    div {
+      color: $dark-green;
+    }
+
+    .title {
+      font-weight: bold;
+    }
+  }
+}

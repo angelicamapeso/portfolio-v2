@@ -1,3 +1,13 @@
+export const NODE_TECH = {
+  name: "Node.js",
+  link: "https://nodejs.org/en",
+};
+
+export const MYSQL_TECH = {
+  name: "MySQL",
+  link: "https://www.mysql.com/",
+};
+
 export const EXPRESS_TECH = {
   name: "Express",
   link: "https://expressjs.com/",
