@@ -4,6 +4,7 @@ import HeroBanner from "../../components/HeroBanner";
 import "./style.scss";
 
 import ProjectSection from "../../components/ProjectSection";
+import AboutSection from "../../components/AboutSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       >
         <HeroBanner />
         <ProjectSection isPreview />
+        <AboutSection isPreview />
       </Page>
     </>
   );
