@@ -18,7 +18,7 @@
     }
 
     li a {
-      @include underline-animation(0.5s, 1px, $maroon);
+      @include underline-animation(0.35s, 1px, $maroon);
       padding-bottom: 0.2em;
 
       &:hover {
