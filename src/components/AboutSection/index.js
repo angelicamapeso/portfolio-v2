@@ -9,8 +9,8 @@ export default function AboutSection({ isPreview }) {
   return (
     <Container fluid id="about-section">
       <Row>
-        <AboutHeader isPreview />
-        <AboutBody isPreview />
+        <AboutHeader isPreview={isPreview} />
+        <AboutBody isPreview={isPreview} />
       </Row>
     </Container>
   );
