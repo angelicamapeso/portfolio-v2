@@ -69,10 +69,10 @@ export default function ProjectSection({ isPreview, initialCategory }) {
       <Container fluid id="project-list" className="bg-pink">
         <Row>
           <Col>
-            <h3>
+            <h2>
               <i className={selectedCategory.icon} aria-hidden="true" />{" "}
               {selectedCategory.title}
-            </h3>
+            </h2>
           </Col>
         </Row>
         <Row className="project-list-row">
