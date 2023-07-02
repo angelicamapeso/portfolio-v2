@@ -3,7 +3,7 @@ import "./style.scss";
 
 export default function List({ list }) {
   return (
-    <>
+    <div className="list-wrapper">
       <h3 className="list-title">{list.title}</h3>
       <ul className="list">
         {list.items.map((item, index) => (
@@ -16,6 +16,6 @@ export default function List({ list }) {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }

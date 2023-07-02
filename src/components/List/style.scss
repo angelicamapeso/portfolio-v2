@@ -1,26 +1,29 @@
 @import "../../sass/variables";
 @import "../../sass/animations";
 
-h3.list-title {
-  padding-bottom: 0.3em;
-  border-bottom: 1px solid $dark-maroon;
-}
-
-.list {
-  list-style: none;
-  padding-left: 0;
-  text-decoration: none;
-
-  li {
-    margin-bottom: 0.3em;
+.list-wrapper {
+  h3.list-title {
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid $dark-maroon;
+    margin-bottom: 0.5em;
   }
 
-  li a {
-    @include underline-animation(0.5s, 1px, $maroon);
-    padding-bottom: 0.2em;
+  .list {
+    list-style: none;
+    padding-left: 0;
+    text-decoration: none;
 
-    &:hover {
-      border-bottom: none;
+    li {
+      margin-bottom: 0.3em;
+    }
+
+    li a {
+      @include underline-animation(0.5s, 1px, $maroon);
+      padding-bottom: 0.2em;
+
+      &:hover {
+        border-bottom: none;
+      }
     }
   }
 }

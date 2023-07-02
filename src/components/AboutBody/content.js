@@ -29,7 +29,7 @@ export const resumeContent = {
       company: "Salesfloor",
       months: "May 2022 - June 2023",
       description: (
-        <p>
+        <p className="recent-work-description">
           Maintained and developed new features for Salesfloor's mobile app and
           web platform with AngularJS and React
         </p>
