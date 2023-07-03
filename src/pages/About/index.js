@@ -1,7 +1,7 @@
 import React from "react";
 
 import Page from "../../components/Page";
-import AboutSection from "../../components/AboutSection";
+import AboutSection from "../../components/About/AboutSection";
 
 function About() {
   return (

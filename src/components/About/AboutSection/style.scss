@@ -1,0 +1,17 @@
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/variables";
+
+#about-section {
+  .about-section-col {
+    padding: 8%;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  #about-section {
+    .about-section-col {
+      padding: 4%;
+    }
+  }
+}

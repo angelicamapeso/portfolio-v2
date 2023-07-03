@@ -1,7 +1,7 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 import { preview, longVersion, resumeContent } from "./content.js";
-import List from "../List";
+import List from "../../List";
 
 import "./style.scss";
 

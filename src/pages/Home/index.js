@@ -4,7 +4,7 @@ import HeroBanner from "../../components/HeroBanner";
 import "./style.scss";
 
 import ProjectSection from "../../components/ProjectSection";
-import AboutSection from "../../components/AboutSection";
+import AboutSection from "../../components/About/AboutSection";
 
 export default function Home() {
   return (

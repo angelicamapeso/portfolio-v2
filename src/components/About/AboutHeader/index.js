@@ -1,7 +1,7 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 
-import Headshot from "../../img/headshot_25x.jpg";
+import Headshot from "../../../img/headshot_25x.jpg";
 
 import "./style.scss";
 

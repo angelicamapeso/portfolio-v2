@@ -1,22 +1,22 @@
 import React from "react";
 
-import { REACT_NATIVE_TECH } from "../../projects/webMobile/mobile_tech";
+import { REACT_NATIVE_TECH } from "../../../projects/webMobile/mobile_tech";
 import {
   ANGULAR_JS_TECH,
   REACT_TECH,
   VUE_TECH,
   JQUERY_TECH,
-} from "../../projects/webMobile/frontEnd_tech";
+} from "../../../projects/webMobile/frontEnd_tech";
 import {
   NODE_TECH,
   EXPRESS_TECH,
   MYSQL_TECH,
-} from "../../projects/webMobile/backEnd_tech";
+} from "../../../projects/webMobile/backEnd_tech";
 import {
   ILLUSTRATOR_TECH,
   PHOTOSHOP_TECH,
   FIGMA_TECH,
-} from "../../projects/graphicDesign_illustration/graphicIllustration_tech";
+} from "../../../projects/graphicDesign_illustration/graphicIllustration_tech";
 
 import Resume from "./mapesoAngelica_resume2023.pdf";
 
