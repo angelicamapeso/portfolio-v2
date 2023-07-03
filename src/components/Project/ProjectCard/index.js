@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import { ReactComponent as Arrow } from "../../../img/arrow_down_white.svg";
+import ArrowLink from "../../Util/ArrowLink";
 import "./style.scss";
 
 function ProjectCard({ project, isPreview }) {
@@ -36,9 +37,7 @@ function ProjectCard({ project, isPreview }) {
                   On GitHub
                 </p>
               ) : null}
-              <p className="project-about">
-                Learn more <Arrow className="more-arrow" />
-              </p>
+              <ArrowLink text="Learn more" />
             </div>
           </Card.Body>
         </Link>

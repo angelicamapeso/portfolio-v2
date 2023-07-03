@@ -2,8 +2,6 @@
 @import "../../../sass/mixins";
 @import "../../../sass/animations";
 
-$animation-duration: 0.3s;
-
 div.card {
   border: none;
   height: 100%;
@@ -13,16 +11,16 @@ div.card {
   animation: fade-slide-in 0.5s ease-out 1;
 
   .image-link {
-    @include outline-box-animation($animation-duration, 1px, 5px, $maroon);
+    @include outline-box-animation($line-animation-duration, 1px, 5px, $maroon);
 
     @include underline-animation(
-      $animation-duration,
+      $line-animation-duration,
       1px,
       $maroon,
-      ".project-about"
+      ".arrow-text"
     );
 
-    @include popup-animation($animation-duration, -0.5em, $red);
+    @include popup-animation($line-animation-duration, -0.5em, $red);
 
     border: none;
     background-color: $pink;
