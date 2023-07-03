@@ -71,6 +71,12 @@ body {
   left: -6px;
 }
 
+.left-border-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .left-border-line::before {
   content: "";
   width: 20px;

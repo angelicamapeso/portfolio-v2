@@ -1,59 +1,17 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
-import { preview, longVersion, resumeContent } from "./content.js";
-import List from "../../Util/List";
+import { longVersion, resumeContent } from "./content.js";
 
 import "./style.scss";
-import ArrowLink from "../../Util/ArrowLink/index.js";
+import AboutShortVersion from "../AboutShortVersion/index.js";
 
 export default function AboutBody({ isPreview }) {
-  const {
-    title: recentTitle,
-    company: recentCompany,
-    months: recentWorkPeriod,
-    description: recentWorkDescription,
-  } = preview.recentWork[0];
-
-  const previewView = (
-    <div id="preview-view">
-      <div className="experience-recent-work">
-        <div className="experience">
-          <h2>Experience</h2>
-          <p>{preview.professionalExperience}</p>
-        </div>
-        <div className="recent-work">
-          <h2>Recent Work</h2>
-          <div className="dark-green-bubble">
-            <h3>
-              <span className="title">{recentTitle}</span> at {recentCompany}
-            </h3>
-            <p>{recentWorkPeriod}</p>
-            {recentWorkDescription}
-          </div>
-        </div>
-      </div>
-      <div className="technical-skills">
-        <h2>Technical Skills</h2>
-        <div className="dark-green-bubble">
-          {preview.technicalSkills.map((technicalSkill, index) => (
-            <List key={index} list={technicalSkill} />
-          ))}
-        </div>
-        <ArrowLink
-          text="Learn more about my journey"
-          linkTo="/about"
-          ariaLabel="View my about page"
-        />
-      </div>
-    </div>
-  );
-
   return (
     <Col
       id="about-body"
       className={"about-section-col " + (isPreview ? "bg-mint" : "")}
     >
-      {isPreview ? previewView : null}
+      <AboutShortVersion resumeContent={resumeContent} isPreview={isPreview} />
     </Col>
   );
 }

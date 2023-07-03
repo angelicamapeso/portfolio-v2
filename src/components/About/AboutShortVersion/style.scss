@@ -1,0 +1,183 @@
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/variables";
+
+@import "../../../sass/variables";
+
+#about-short-version {
+  display: flex;
+  flex-direction: column;
+
+  .about-short-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2,
+  p {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-bottom: 0.5em;
+  }
+
+  .about-short-section {
+    margin-bottom: 1em;
+  }
+
+  .months {
+    margin: 0.3em 0;
+    font-style: italic;
+    font-size: 1.1em;
+  }
+
+  #about-short-title-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    #about-short-title {
+      color: $dark-green;
+      margin-bottom: 0;
+    }
+
+    .custom-btn {
+      align-self: flex-end;
+      margin: 1em 0;
+    }
+  }
+
+  .experience {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+
+    .experience-title {
+      margin-right: 2em;
+      margin-bottom: 0;
+    }
+  }
+
+  .recent-work {
+    .recent-work-list {
+      color: $dark-green;
+
+      div:not(:last-child) {
+        margin-bottom: 1em;
+      }
+    }
+
+    .recent-work-title {
+      margin-bottom: 0;
+    }
+
+    .recent-work-list {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .title {
+      font-weight: bold;
+    }
+
+    .recent-work-description {
+      color: $dark-maroon;
+    }
+  }
+
+  .education-technical-skills {
+    display: flex;
+    flex-direction: column;
+
+    .education {
+      .education-list {
+        & > div:not(:last-child) {
+          margin-bottom: 1em;
+        }
+
+        .education-title {
+          margin-bottom: 0;
+        }
+
+        .education-title,
+        .months {
+          color: $dark-green;
+        }
+
+        .degree {
+          font-weight: bold;
+        }
+
+        .school-name {
+          font-weight: normal;
+        }
+      }
+    }
+
+    .technical-skills {
+      .list-title {
+        color: $dark-green;
+        border-bottom: 1px solid $dark-green;
+      }
+
+      & > div {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1em;
+      }
+
+      .list-wrapper {
+        margin-right: 2em;
+      }
+    }
+  }
+
+  .arrow-link {
+    align-self: flex-end;
+    margin-right: 2em;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  #about-short-version.about-short-preview {
+    .about-short-content {
+      flex-direction: row;
+    }
+
+    .experience-recent-work {
+      flex: 0 0 40%;
+      margin-right: 2em;
+    }
+  }
+
+  #about-short-version:not(.about-short-preview) {
+    .recent-work {
+      .recent-work-list {
+        flex-direction: row;
+
+        .dark-green-bubble:not(:last-child) {
+          margin-bottom: 0;
+          margin-right: 1em;
+        }
+      }
+    }
+
+    .education-technical-skills {
+      flex-direction: row;
+
+      .technical-skills {
+        flex-grow: 1;
+      }
+
+      .education {
+        order: -1;
+        flex: 0 0 50%;
+        margin-right: 3em;
+      }
+    }
+  }
+}

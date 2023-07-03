@@ -40,7 +40,7 @@ export const resumeContent = {
       company: "Creative Layer",
       months: "May 2021 - October 2021",
       description: (
-        <p>
+        <p className="recent-work-description">
           Using a node-based system, programmed software that would generate
           personalized, digital artwork from user input
         </p>
@@ -55,7 +55,7 @@ export const resumeContent = {
       school: "Carleton University",
       months: "September 2017 - April 2022",
       description: (
-        <p>
+        <p className="education-description">
           A five year program on the design and development of all things
           multimedia.The program balances design skills(UI/ UX Design, Game
           Design, Animation) with technical skills(C++, JavaScript, Software
@@ -69,7 +69,7 @@ export const resumeContent = {
       school: "Carleton University",
       months: "August 2020 - February 2021",
       description: (
-        <p>
+        <p className="education-description">
           An intensive six month program which teaches full-stack web
           development from the ground up. Focuses on the MERN stack after
           developing foundational skills.
