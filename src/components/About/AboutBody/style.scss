@@ -54,6 +54,9 @@
   }
 
   .technical-skills {
+    display: flex;
+    flex-direction: column;
+
     .list-title {
       color: $dark-green;
       border-bottom: 1px solid $dark-green;
@@ -62,11 +65,17 @@
     & > div {
       display: flex;
       flex-wrap: wrap;
+      margin-bottom: 1em;
     }
 
     .list-wrapper {
       margin-right: 2em;
     }
+  }
+
+  .arrow-link {
+    align-self: flex-end;
+    margin-right: 2em;
   }
 }
 

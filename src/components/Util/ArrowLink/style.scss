@@ -1,6 +1,10 @@
 @import "../../../sass/variables";
 @import "../../../sass/animations";
 
+a.arrow-link {
+  border: none;
+}
+
 .arrow-link {
   @include underline-animation($line-animation-duration, 1px, $maroon);
 }

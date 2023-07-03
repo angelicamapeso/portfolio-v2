@@ -4,6 +4,7 @@ import { preview, longVersion, resumeContent } from "./content.js";
 import List from "../../Util/List";
 
 import "./style.scss";
+import ArrowLink from "../../Util/ArrowLink/index.js";
 
 export default function AboutBody({ isPreview }) {
   const {
@@ -38,6 +39,11 @@ export default function AboutBody({ isPreview }) {
             <List key={index} list={technicalSkill} />
           ))}
         </div>
+        <ArrowLink
+          text="Learn more about my journey"
+          linkTo="/about"
+          ariaLabel="View my about page"
+        />
       </div>
     </div>
   );
