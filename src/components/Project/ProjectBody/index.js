@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import YoutubeEmbed from "../YoutubeEmbed";
+import YoutubeEmbed from "../../Util/YoutubeEmbed";
 import "./style.scss";
-import ImageToExpand from "../ImageToExpand";
+import ImageToExpand from "../../Util/ImageToExpand";
 
 function ProjectBody({ project }) {
   const [isReady, setIsReady] = useState(false);
