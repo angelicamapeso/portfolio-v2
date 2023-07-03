@@ -8,8 +8,8 @@ import ProjectCard from "../ProjectCard";
 
 import "./style.scss";
 
-import categories, { getCategory } from "../../projects/tags.js";
-import { getProjectsByCategory } from "../../projects";
+import categories, { getCategory } from "../../../projects/tags.js";
+import { getProjectsByCategory } from "../../../projects";
 
 export default function ProjectSection({ isPreview, initialCategory }) {
   const [selectedCategory, setSelectedCategory] = useState(

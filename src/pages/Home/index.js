@@ -3,7 +3,7 @@ import Page from "../../components/Page";
 import HeroBanner from "../../components/HeroBanner";
 import "./style.scss";
 
-import ProjectSection from "../../components/ProjectSection";
+import ProjectSection from "../../components/Project/ProjectSection";
 import AboutSection from "../../components/About/AboutSection";
 
 export default function Home() {

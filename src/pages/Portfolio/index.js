@@ -1,9 +1,8 @@
 import React from "react";
 import Page from "../../components/Page";
-import ProjectSection from "../../components/ProjectSection";
+import ProjectSection from "../../components/Project/ProjectSection";
 
 function Portfolio() {
-
   return (
     <Page
       title="Portfolio"
