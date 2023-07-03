@@ -23,7 +23,7 @@
   }
 
   .about-short-section {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
   }
 
   .months {
@@ -32,22 +32,9 @@
     font-size: 1.1em;
   }
 
-  #about-short-title-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-
-    #about-short-title {
-      color: $dark-green;
-      margin-bottom: 0;
-    }
-
-    .custom-btn {
-      align-self: flex-end;
-      margin: 1em 0;
-    }
+  #about-short-title {
+    color: $dark-green;
+    margin-bottom: 1em;
   }
 
   .experience {
@@ -139,6 +126,13 @@
   .arrow-link {
     align-self: flex-end;
     margin-right: 2em;
+  }
+
+  .resume-btn {
+    align-self: flex-start;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border-radius: 2em;
   }
 }
 

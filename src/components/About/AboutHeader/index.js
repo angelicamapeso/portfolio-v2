@@ -19,7 +19,7 @@ export default function AboutHeader({ isPreview }) {
         }`}
       >
         <h1 id="about-section-title-line" className="mb-4">
-          <i class="far fa-hand-paper mb-4" aria-hidden="true"></i>
+          <i className="far fa-hand-paper mb-4" aria-hidden="true"></i>
           {isPreview ? "Meet the developer" : "About"}
         </h1>
         {isPreview ? null : <p>Let me tell you about my journey so far</p>}

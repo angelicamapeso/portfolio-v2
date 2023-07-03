@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import List from "../../Util/List";
 import ArrowLink from "../../Util/ArrowLink/index.js";
 import "./style.scss";
@@ -17,14 +16,7 @@ export default function AboutShortVersion({ resumeContent, isPreview }) {
       id="about-short-version"
       className={isPreview ? "about-short-preview" : ""}
     >
-      {isPreview ? null : (
-        <div id="about-short-title-wrapper">
-          <h2 id="about-short-title">The Short Version</h2>
-          <Button variant="dark" className="custom-btn">
-            Grab a copy of my Resume
-          </Button>
-        </div>
-      )}
+      {isPreview ? null : <h2 id="about-short-title">The Short Version</h2>}
       <div className="about-short-content">
         <div className="experience-recent-work">
           <div className="experience about-short-section">
@@ -90,7 +82,15 @@ export default function AboutShortVersion({ resumeContent, isPreview }) {
           linkTo="/about"
           ariaLabel="View my about page"
         />
-      ) : null}
+      ) : (
+        <a
+          className="custom-btn btn-dark resume-btn"
+          href={resumeContent.resume}
+        >
+          <i className="far fa-file mr-2" aria-hidden="true"></i>Grab a copy of
+          my Resume
+        </a>
+      )}
     </div>
   );
 }

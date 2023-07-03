@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import { ReactComponent as Arrow } from "../../../img/arrow_down_white.svg";
 import ArrowLink from "../../Util/ArrowLink";
 import "./style.scss";
 

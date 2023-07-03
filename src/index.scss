@@ -72,6 +72,7 @@ body {
 }
 
 .left-border-line {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -79,11 +80,12 @@ body {
 
 .left-border-line::before {
   content: "";
+  position: absolute;
+  left: -30px;
+  top: 50%;
   width: 20px;
   height: 0;
   border: 1.5px solid $dark-maroon;
-  margin-right: 1em;
-  margin-left: -1.5em;
 }
 
 /*Buttons*/
@@ -217,8 +219,9 @@ a.image-link:hover {
 
   .left-border-line::before {
     width: 0;
-    height: 20px;
-    margin-left: -0.5em;
+    height: 100%;
+    top: 0;
+    left: -20px;
   }
 }
 
