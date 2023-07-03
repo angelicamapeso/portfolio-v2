@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import Page from "../../components/Page";
 import * as projects from "../../projects";
 import NotFound from "../NotFound";
-import ProjectHeader from "../../components/ProjectHeader";
-import ProjectBody from "../../components/ProjectBody";
+import ProjectHeader from "../../components/Project/ProjectHeader";
+import ProjectBody from "../../components/Project/ProjectBody";
 import { getProjectByInfoPage } from "../../projects";
 import "./style.scss";
 

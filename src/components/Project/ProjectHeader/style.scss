@@ -1,12 +1,13 @@
-@import '../../../node_modules/bootstrap/scss/mixins';
-@import '../../../node_modules/bootstrap/scss/functions';
-@import '../../../node_modules/bootstrap/scss/variables';
-@import '../../sass/variables';
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/variables";
+@import "../../../sass/variables";
 
 #project-header {
   padding: 5%;
 
-  #title-line, #image-preview {
+  #title-line,
+  #image-preview {
     display: flex;
   }
 
@@ -44,7 +45,9 @@
       font-size: 1.1em;
     }
 
-    .project-repo, #project-tag-list, #project-links {
+    .project-repo,
+    #project-tag-list,
+    #project-links {
       font-size: 0.8em;
     }
 
@@ -87,9 +90,8 @@
       flex-direction: column;
     }
 
-
     #image-preview {
-      order:-1;
+      order: -1;
     }
   }
 }
