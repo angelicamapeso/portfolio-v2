@@ -25,13 +25,13 @@ function ProjectHeader({ project }) {
           </div>
           <div id="project-links">
             {project.repo ? (
-              <a className="dark-green-link" href={project.repo}>
+              <a className="custom-btn btn-light" href={project.repo}>
                 <i className="fab fa-github mr-2" aria-hidden="true"></i>Source
                 Code
               </a>
             ) : null}
             {project.url ? (
-              <a className="dark-maroon-link" href={project.url}>
+              <a className="custom-btn btn-dark" href={project.url}>
                 <i className="fab fa-github mr-2" aria-hidden="true"></i>Visit
                 Site
               </a>
