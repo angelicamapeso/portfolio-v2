@@ -12,7 +12,7 @@ function Header() {
     <header>
       <nav id="main-nav" className="bg-dark-maroon">
         <Navbar.Brand>
-          <Link to="/">
+          <Link className="nav-link" to="/">
             <Logo id="nav-logo" />
           </Link>
         </Navbar.Brand>

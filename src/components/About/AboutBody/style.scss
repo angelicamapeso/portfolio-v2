@@ -1,93 +1,11 @@
-// @import "../../../../node_modules/bootstrap/scss/mixins";
-// @import "../../../../node_modules/bootstrap/scss/functions";
-// @import "../../../../node_modules/bootstrap/scss/variables";
+@import "../../../sass/variables";
 
-// @import "../../../sass/variables";
+#about-body.col {
+  padding: 0;
+}
 
-// #about-body {
-//   h2,
-//   p {
-//     margin-bottom: 0;
-//   }
-
-//   h2 {
-//     margin-bottom: 0.5em;
-//   }
-
-//   #preview-view {
-//     display: flex;
-//     flex-direction: column;
-//   }
-
-//   .experience-recent-work {
-//     margin-bottom: 1em;
-//   }
-
-//   .experience {
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-//     margin-bottom: 1em;
-
-//     h2 {
-//       margin-right: 2em;
-//       margin-bottom: 0;
-//     }
-//   }
-
-//   .recent-work {
-//     div {
-//       color: $dark-green;
-//     }
-
-//     h3 {
-//       margin-bottom: 0;
-//     }
-
-//     .title {
-//       font-weight: bold;
-//     }
-
-//     .recent-work-description {
-//       color: $dark-maroon;
-//     }
-//   }
-
-//   .technical-skills {
-//     display: flex;
-//     flex-direction: column;
-
-//     .list-title {
-//       color: $dark-green;
-//       border-bottom: 1px solid $dark-green;
-//     }
-
-//     & > div {
-//       display: flex;
-//       flex-wrap: wrap;
-//       margin-bottom: 1em;
-//     }
-
-//     .list-wrapper {
-//       margin-right: 2em;
-//     }
-//   }
-
-//   .arrow-link {
-//     align-self: flex-end;
-//     margin-right: 2em;
-//   }
-// }
-
-// @include media-breakpoint-up(xl) {
-//   #about-body {
-//     #preview-view {
-//       flex-direction: row;
-//     }
-
-//     .experience-recent-work {
-//       flex: 0 0 40%;
-//       margin-right: 2em;
-//     }
-//   }
-// }
+#about-short-title,
+#about-long-title {
+  color: $dark-green;
+  margin-bottom: 1em;
+}

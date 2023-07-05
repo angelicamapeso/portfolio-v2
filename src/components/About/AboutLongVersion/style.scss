@@ -1,0 +1,20 @@
+@import "../../../sass/variables";
+
+#about-long-version {
+  .dark-maroon-bubble {
+    color: $dark-green;
+  }
+
+  .tagline {
+    font-size: 1.1em;
+    font-weight: normal;
+  }
+
+  a {
+    color: $dark-green;
+
+    &:hover {
+      color: $red;
+    }
+  }
+}

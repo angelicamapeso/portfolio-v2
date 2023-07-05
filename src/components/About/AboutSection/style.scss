@@ -2,16 +2,19 @@
 @import "../../../../node_modules/bootstrap/scss/functions";
 @import "../../../../node_modules/bootstrap/scss/variables";
 
+$padding-xs: 8%;
+$padding-sm: 4%;
+
 #about-section {
-  .about-section-col {
-    padding: 8%;
+  .about-sub-section {
+    padding: $padding-xs;
   }
 }
 
 @include media-breakpoint-up(sm) {
   #about-section {
-    .about-section-col {
-      padding: 4%;
+    .about-sub-section {
+      padding: $padding-sm;
     }
   }
 }

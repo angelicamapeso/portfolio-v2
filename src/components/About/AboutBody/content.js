@@ -101,33 +101,45 @@ export const resumeContent = {
 
 export const longVersion = (
   <>
-    <p>
+    <p className="left-border-line">
       Prior to discovering my love of programming, I set down my roots in the
       world of visual art and eventually expanded into graphic design.
     </p>
     <p>
-      Originally, I wanted to be an Architect but fell in love with programming
-      when I wrote a small python program for an elective during my first year
-      of undergrad.
+      Seeking to keep designing as part of my career, I originally set out to be
+      an architect when I started university; however, I fell in love with
+      programming when I wrote a small python program for an elective during my
+      first year of undergrad.
     </p>
     <p className="dark-maroon-bubble">
-      The Python Program:
+      The program went something like this:
       <br />
-      The program that pretended you were a Pokemon trainer who had to choose
-      where to step in the wild grass. Depending on what you picked, a single
-      Pokemon would be drawn out on the screen.
+      You're a Pokemon trainer who had to choose where to step in the wild
+      grass. Depending on what you picked, a single Pokemon would be drawn out
+      on the screen.
     </p>
     <p>
-      I dove into the Interactive Multimedia and Design program at Carleton
-      University seeking to join my passions for design and programming. When I
-      came across web development, I decided to deepen my knowledge by
-      completing the Carleton Coding Bootcamp during my undergrad.
+      I dove into the{" "}
+      <a href="https://admissions.carleton.ca/programs/interactive-multimedia-and-design-imd/">
+        Interactive Multimedia and Design program
+      </a>{" "}
+      at Carleton University with a newfound goal of finding a career that would
+      combine programming and visual design. When I came across web development,
+      I couldn't get enough of it, so I enrolled in the{" "}
+      <a href="https://bootcamp.carleton.ca/coding/">
+        Carleton Coding Bootcamp
+      </a>{" "}
+      during my undergrad to get a more in-depth learning experience.
     </p>
     <p>
       I'm confident to say that my background in design has made me a
-      well-rounded developer; I'm very conscious about the user experience and
-      seek solutions that would be easy for other developers to build onto. I'm
-      a team player all around!
+      well-rounded developer. Having experience in not only UI design, but also
+      UX design, I'm very conscious about the user experience and seek solutions
+      that would be easy for other developers to build onto.
+    </p>
+    <p className="tagline">
+      I want to build apps and websites that are clean in code and exciting in
+      experience. Let's build something great together!
     </p>
   </>
 );

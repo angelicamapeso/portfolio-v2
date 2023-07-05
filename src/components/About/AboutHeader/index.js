@@ -11,7 +11,7 @@ export default function AboutHeader({ isPreview }) {
       xs={12}
       sm={4}
       id="about-section-header"
-      className={`about-section-col bg-mint ${isPreview ? "is-preview" : ""}`}
+      className={`about-sub-section bg-mint ${isPreview ? "is-preview" : ""}`}
     >
       <div
         className={`about-section-title-img ${

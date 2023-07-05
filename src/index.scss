@@ -5,6 +5,7 @@
 @import "../node_modules/bootstrap/scss/variables";
 
 @import "./sass/variables";
+@import "./sass/animations";
 @import "./sass/mixins";
 @import "./sass/barlow";
 
@@ -147,14 +148,18 @@ body {
 
 /*Links with icons*/
 a {
-  color: #941b41;
-  transition: all 0.5s ease;
-}
+  &:not(.image-link, .nav-link, .custom-btn) {
+    @include underline-animation($line-animation-duration, 1px, $maroon);
+    white-space: nowrap;
+  }
 
-a:hover {
-  color: #33121c;
-  text-decoration: none;
-  border-bottom: 1px solid $dark-maroon;
+  color: $dark-maroon;
+  transition: all 0.5s ease;
+
+  &:hover {
+    color: $maroon;
+    text-decoration: none;
+  }
 }
 
 a.image-link:hover {

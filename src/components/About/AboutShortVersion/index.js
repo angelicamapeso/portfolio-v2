@@ -14,7 +14,7 @@ export default function AboutShortVersion({ resumeContent, isPreview }) {
   return (
     <div
       id="about-short-version"
-      className={isPreview ? "about-short-preview" : ""}
+      className={`about-sub-section ${isPreview ? "about-short-preview" : ""}`}
     >
       {isPreview ? null : <h2 id="about-short-title">The Short Version</h2>}
       <div className="about-short-content">
