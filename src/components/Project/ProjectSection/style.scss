@@ -23,11 +23,6 @@
       color: $maroon;
       margin-bottom: 0;
     }
-
-    p {
-      font-size: 1.1em;
-      font-weight: normal;
-    }
   }
 
   #category-filters {
@@ -35,7 +30,6 @@
     flex-wrap: nowrap;
     overflow-x: scroll;
     align-items: center;
-    align-content: flex-start;
   }
 
   #category-filters::-webkit-scrollbar {

@@ -11,7 +11,7 @@ export default function AboutHeader({ isPreview }) {
       xs={12}
       sm={4}
       id="about-section-header"
-      className="about-section-col bg-mint"
+      className={`about-section-col bg-mint ${isPreview ? "is-preview" : ""}`}
     >
       <div
         className={`about-section-title-img ${
@@ -22,7 +22,9 @@ export default function AboutHeader({ isPreview }) {
           <i className="far fa-hand-paper mb-4" aria-hidden="true"></i>
           {isPreview ? "Meet the developer" : "About"}
         </h1>
-        {isPreview ? null : <p>Let me tell you about my journey so far</p>}
+        {isPreview ? null : (
+          <p className="subtitle">Let me tell you about my journey so far</p>
+        )}
         <div className="headshot-frame mb-4">
           <img src={Headshot} alt="The developer!" />
         </div>

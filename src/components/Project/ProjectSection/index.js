@@ -46,7 +46,7 @@ export default function ProjectSection({ isPreview, initialCategory }) {
                   <br />
                   Portfolio
                 </h1>
-                <p>Let me show you what I can do</p>
+                <p className="subtitle">Let me show you what I can do</p>
               </>
             )}
           </Col>
