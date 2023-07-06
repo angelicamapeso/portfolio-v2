@@ -1,0 +1,23 @@
+@import "../../sass/variables";
+
+.footer {
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  background-color: $dark-maroon;
+
+  .col {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  a {
+    color: $pink;
+    margin-bottom: 0;
+    font-size: 1.5em;
+
+    &:hover,
+    &:focus {
+      color: $red;
+    }
+  }
+}
