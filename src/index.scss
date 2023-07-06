@@ -38,6 +38,21 @@ body {
   color: $dark-maroon;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-fluid {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+
+  .row {
+    flex-grow: 1;
+  }
+}
+
 /* Background Styles */
 .bg-maroon {
   background-color: $maroon;

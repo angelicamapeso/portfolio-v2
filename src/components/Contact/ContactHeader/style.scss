@@ -7,11 +7,77 @@
   color: $pink;
   padding: 8%;
 
+  &.contact-full {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1,
+  h2,
+  p {
+    text-align: center;
+  }
+
   h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 0.5em;
+    color: $mint;
+  }
+
+  p {
+    font-weight: normal;
+    white-space: break-spaces;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2em;
+
+    .contact-info-wrapper {
+      padding: 1em;
+      border-color: $pink;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      a {
+        white-space: normal;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        color: $pink;
+        font-weight: normal;
+        margin-left: 2em;
+
+        &:not(:last-child) {
+          margin-bottom: 0.5em;
+        }
+
+        &:hover,
+        &:focus {
+          color: $mint;
+        }
+
+        &:hover::before {
+          border-color: $mint;
+        }
+
+        i {
+          position: absolute;
+          color: $mint;
+          left: -2em;
+        }
+      }
+    }
   }
 }
 
@@ -19,9 +85,14 @@
   #contact-header {
     padding: 4%;
 
+    h1,
+    h2,
+    p {
+      text-align: left;
+    }
+
     h1 {
       justify-content: flex-start;
-      text-align: left;
     }
   }
 }
