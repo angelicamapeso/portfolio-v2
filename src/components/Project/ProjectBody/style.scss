@@ -6,20 +6,16 @@
 #project-body {
   p {
     font-weight: normal;
-    font-size: 0.9em;
   }
 
-  .container-fluid {
-    padding: 5%;
-  }
+  padding: 0;
 
-  .container-fluid:nth-child(even) {
-    background-color: white;
+  .project-sub-section:nth-child(even) {
+    background-color: $off-white;
   }
 }
 
 #project-main {
-  background-color: $off-white;
   flex-grow: 1;
 
   #hero-content {
@@ -62,7 +58,6 @@
 }
 
 .additional-section {
-  background-color: $off-white;
   padding: 5%;
 
   .additional-section-title {

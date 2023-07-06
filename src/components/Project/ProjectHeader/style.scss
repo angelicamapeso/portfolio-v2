@@ -4,12 +4,9 @@
 @import "../../../sass/variables";
 
 #project-header {
-  padding: 5%;
-
-  #title-line,
-  #image-preview {
-    display: flex;
-  }
+  display: flex;
+  flex-direction: column;
+  padding: 8%;
 
   #image-preview img {
     object-fit: contain;
@@ -20,9 +17,7 @@
   #title-line {
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
-    justify-content: flex-end;
 
     h1 {
       display: flex;
@@ -43,25 +38,30 @@
 
     p {
       font-size: 1.1em;
-    }
-
-    .project-repo,
-    #project-tag-list,
-    #project-links {
-      font-size: 0.8em;
+      text-align: center;
     }
 
     #project-tag-list {
       margin-bottom: 1em;
+
+      p:last-child {
+        margin-right: 0;
+      }
     }
 
     #project-links {
       width: 100%;
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
 
-      .project-url {
-        border: 1px solid $maroon;
+      a {
+        font-weight: 600;
+        text-align: center;
+
+        &:last-child {
+          margin-left: 1em;
+        }
       }
     }
   }
@@ -69,12 +69,24 @@
 
 @include media-breakpoint-up(sm) {
   #project-header {
+    flex-direction: row;
+    justify-content: space-between;
+
+    #image-preview {
+      flex-basis: 70%;
+    }
+
     #title-line {
+      margin-right: 2em;
       align-items: flex-start;
-      text-align: left;
+
+      p {
+        text-align: left;
+      }
 
       #project-links {
-        justify-content: space-between;
+        margin-top: 2em;
+        justify-content: flex-start;
       }
     }
 
@@ -86,12 +98,26 @@
 
 @include media-breakpoint-up(md) {
   #project-header {
-    .row {
-      flex-direction: column;
+    #image-preview {
+      flex-basis: 50%;
     }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  #project-header {
+    justify-content: flex-start;
+    flex-direction: column;
 
     #image-preview {
+      flex-basis: auto;
       order: -1;
+    }
+
+    #title-line {
+      #project-links {
+        margin-top: 1em;
+      }
     }
   }
 }

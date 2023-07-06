@@ -4,22 +4,15 @@
 @import "../../sass/variables";
 
 #project-page {
-  display: flex;
-  flex-direction: column;
-  background-color: $off-white;
+  .project-sub-section {
+    padding: 8%;
+  }
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(sm) {
   #project-page {
-    flex-direction: row;
-    align-items: stretch;
-  }
-
-  #project-header {
-    width: 40%;
-  }
-
-  #project-body {
-    width: 60%;
+    .project-sub-section {
+      padding: 4%;
+    }
   }
 }
