@@ -42,7 +42,7 @@ function Contact() {
                     <Form.Label>Email address</Form.Label>
                     <Form.Control
                       value={replyTo}
-                      onChange={e => setReplyTo(e.target.value)}
+                      onChange={(e) => setReplyTo(e.target.value)}
                       name="replyTo"
                       type="email"
                       placeholder="email@example.com"
@@ -54,7 +54,7 @@ function Contact() {
                     <Form.Control
                       name="name"
                       value={name}
-                      onChange={e => setName(e.target.value)}
+                      onChange={(e) => setName(e.target.value)}
                       type="text"
                       required
                     />
@@ -63,7 +63,7 @@ function Contact() {
                     <Form.Label>Message</Form.Label>
                     <Form.Control
                       value={message}
-                      onChange={e => setMessage(e.target.value)}
+                      onChange={(e) => setMessage(e.target.value)}
                       as="textarea"
                       name="message"
                       rows="5"
@@ -71,7 +71,7 @@ function Contact() {
                     />
                   </Form.Group>
                   <Button
-                    variant="dark"
+                    variant="light"
                     className="custom-btn"
                     type="submit"
                     disabled={state.submitting}
@@ -100,7 +100,10 @@ function Contact() {
                     <ListGroup.Item>
                       <p className="h5 font-weight-normal mb-0">
                         <a href="tel:647-455-5788" className="icon-link">
-                          <i className="fas fa-phone  mr-2" aria-hidden="true"></i>
+                          <i
+                            className="fas fa-phone  mr-2"
+                            aria-hidden="true"
+                          ></i>
                           (647) 455-5788
                         </a>
                       </p>
@@ -111,7 +114,10 @@ function Contact() {
                           href="mailto:angelica.mapeso@gmail.com"
                           className="icon-link"
                         >
-                          <i className="fas fa-envelope mr-2" aria-hidden="true"></i>
+                          <i
+                            className="fas fa-envelope mr-2"
+                            aria-hidden="true"
+                          ></i>
                           angelica.mapeso@gmail.com
                         </a>
                       </p>

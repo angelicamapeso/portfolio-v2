@@ -1,0 +1,27 @@
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/variables";
+@import "../../../sass/variables";
+
+#contact-header {
+  color: $pink;
+  padding: 8%;
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #contact-header {
+    padding: 4%;
+
+    h1 {
+      justify-content: flex-start;
+      text-align: left;
+    }
+  }
+}

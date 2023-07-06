@@ -1,0 +1,20 @@
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/variables";
+
+$padding-xs: 8%;
+$padding-sm: 4%;
+
+#contact-section {
+  .contact-sub-section {
+    padding: $padding-xs;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  #contact-section {
+    .contact-sub-section {
+      padding: $padding-sm;
+    }
+  }
+}
