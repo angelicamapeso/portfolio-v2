@@ -9,7 +9,7 @@ export default function ContactHeader({ isPreview }) {
       xs={12}
       md={4}
       id="contact-header"
-      className={`bg-maroon ${isPreview ? "" : "contact-full"}`}
+      className={`bg-maroon ${isPreview ? "" : "contact-header-full"}`}
     >
       <h1>
         <i className="fas fa-rocket mb-4"></i>

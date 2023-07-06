@@ -19,7 +19,10 @@ export default function ContactBody({ isPreview }) {
   }, [state.succeeded]);
 
   return (
-    <Col id="contact-body" className="contact-sub-section">
+    <Col
+      id="contact-body"
+      className={`contact-sub-section ${isPreview ? "" : "contact-body-full"}`}
+    >
       <h2 className="left-border-line">Send me an email</h2>
       <Form onSubmit={handleSubmit}>
         <div className="form-items">

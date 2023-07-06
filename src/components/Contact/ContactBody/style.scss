@@ -67,7 +67,7 @@
 }
 
 @include media-breakpoint-up(md) {
-  #contact-body {
+  #contact-body:not(.contact-body-full) {
     background-color: white;
     color: $dark-maroon;
 
@@ -115,6 +115,16 @@
     .message {
       flex-grow: 1;
       margin-bottom: 0;
+    }
+  }
+
+  #contact-body.contact-body-full {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .sender-details {
+      width: 75%;
     }
   }
 }
