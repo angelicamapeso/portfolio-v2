@@ -1,12 +1,11 @@
-@import '../../../node_modules/bootstrap/scss/mixins';
-@import '../../../node_modules/bootstrap/scss/functions';
-@import '../../../node_modules/bootstrap/scss/variables';
-@import '../../sass/variables';
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../sass/variables";
 
 #project-page {
   display: flex;
   flex-direction: column;
-  height: 100%;
   background-color: $off-white;
 }
 
@@ -24,4 +23,3 @@
     width: 60%;
   }
 }
-
