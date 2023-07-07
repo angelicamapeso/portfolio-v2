@@ -8,15 +8,9 @@ import ImageToExpand from "../../Util/ImageToExpand";
 import List from "../../Util/List";
 
 function ProjectBody({ project }) {
-  const [isReady, setIsReady] = useState(false);
-
   useEffect(() => {
-    setIsReady(true);
+    window.scrollTo(0, 0);
   }, []);
-
-  if (!isReady) {
-    return <div id="project-body"></div>;
-  }
 
   return (
     <Col

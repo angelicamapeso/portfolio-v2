@@ -22,7 +22,8 @@ h3 {
   font-size: 1.3em;
 }
 
-p {
+p,
+a {
   font-size: 1em;
 }
 
@@ -224,7 +225,6 @@ a.image-link:hover {
   margin-right: 1em;
   margin-bottom: 0.5em;
   font-weight: 500;
-  font-size: 0.8em;
   color: $dark-green;
 }
 
