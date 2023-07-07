@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import YoutubeEmbed from "../../Util/YoutubeEmbed";
 import "./style.scss";
 import ImageToExpand from "../../Util/ImageToExpand";
+import List from "../../Util/List";
 
 function ProjectBody({ project }) {
   const [isReady, setIsReady] = useState(false);
@@ -18,11 +19,16 @@ function ProjectBody({ project }) {
   }
 
   return (
-    <Col id="project-body">
+    <Col
+      id="project-body"
+      className={
+        project.youtubeEmbedID || project.images ? "has-hero-content" : ""
+      }
+    >
       {project.youtubeEmbedID || project.images ? (
         <div id="hero-content" className="project-sub-section">
           {project.youtubeEmbedID ? (
-            <div id="youtube" className="hero content-box">
+            <div id="youtube" className="hero-content-section">
               <YoutubeEmbed
                 embedID={project.youtubeEmbedID}
                 title={project.title}
@@ -30,7 +36,7 @@ function ProjectBody({ project }) {
             </div>
           ) : null}
           {project.images ? (
-            <div id="images" className="hero content-box">
+            <div id="images" className="image-container hero-content-section">
               {project.images.map((image, index) => (
                 <ImageToExpand
                   key={index}
@@ -47,11 +53,11 @@ function ProjectBody({ project }) {
       </div>
       {project.additionalSections
         ? project.additionalSections.map((section, index) => (
-            <div key={index} className="additional-section project-sub-section">
+            <div key={index} className="project-sub-section">
               <h2 className="additional-section-title">{section.title}</h2>
               {section.description}
               {section.images ? (
-                <div className="additional-images">
+                <div className="image-container">
                   {section.images.map((image, index) => (
                     <ImageToExpand
                       key={index}
@@ -70,11 +76,7 @@ function ProjectBody({ project }) {
             <i className="fas fa-users" aria-hidden="true"></i>Team Members
           </h2>
           <div className="team-list dark-maroon-bubble">
-            {project.team.map((teamMember, index) => (
-              <a key={index} href={teamMember.link}>
-                {teamMember.name}
-              </a>
-            ))}
+            <List list={project.team} />
           </div>
         </div>
       ) : null}
@@ -85,14 +87,7 @@ function ProjectBody({ project }) {
           </h2>
           <div className="technology-list dark-maroon-bubble">
             {project.technology.map((technology, index) => (
-              <div key={index}>
-                <h3>{technology.title}</h3>
-                {technology.items.map((item, index) => (
-                  <a key={index} href={item.link}>
-                    {item.name}
-                  </a>
-                ))}
-              </div>
+              <List key={index} list={technology} />
             ))}
           </div>
         </div>

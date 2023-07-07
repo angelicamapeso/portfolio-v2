@@ -78,28 +78,30 @@ export const sumSoul = {
       images: [beatBarTest, decodePuzzle],
     },
   ],
-  team: [
-    {
-      name: "Austin Empaynado",
-      link: "https://www.linkedin.com/in/austin-empaynado-73b567168/",
-    },
-    {
-      name: "Cindy Huang",
-      link: "https://www.linkedin.com/in/cindy-huang-942315178/",
-    },
-    {
-      name: "Damon Yip",
-      link: "https://www.linkedin.com/in/damon-yip-203177187/",
-    },
-    {
-      name: "Jenny Liu",
-      link: "https://www.linkedin.com/in/jenny-liu-nn/",
-    },
-    {
-      name: "Noreen Qureshi",
-      link: "https://www.linkedin.com/in/noreenqureshi/",
-    },
-  ],
+  team: {
+    items: [
+      {
+        name: "Austin Empaynado",
+        link: "https://www.linkedin.com/in/austin-empaynado-73b567168/",
+      },
+      {
+        name: "Cindy Huang",
+        link: "https://www.linkedin.com/in/cindy-huang-942315178/",
+      },
+      {
+        name: "Damon Yip",
+        link: "https://www.linkedin.com/in/damon-yip-203177187/",
+      },
+      {
+        name: "Jenny Liu",
+        link: "https://www.linkedin.com/in/jenny-liu-nn/",
+      },
+      {
+        name: "Noreen Qureshi",
+        link: "https://www.linkedin.com/in/noreenqureshi/",
+      },
+    ],
+  },
   technology: [
     {
       icon: "fas fa-desktop",

@@ -44,12 +44,14 @@ export const bitGora = {
       </p>
     </>
   ),
-  team: [
-    {
-      name: "Ziyong He",
-      link: "https://github.com/ZiyongHe",
-    },
-  ],
+  team: {
+    items: [
+      {
+        name: "Ziyong He",
+        link: "https://github.com/ZiyongHe",
+      },
+    ],
+  },
   technology: [
     {
       icon: "fas fa-desktop",

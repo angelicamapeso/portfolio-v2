@@ -59,8 +59,8 @@
         font-weight: 600;
         text-align: center;
 
-        &:last-child {
-          margin-left: 1em;
+        &:not(:last-child) {
+          margin-right: 1em;
         }
       }
     }

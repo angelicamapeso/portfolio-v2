@@ -4,7 +4,7 @@ import "./style.scss";
 export default function List({ list }) {
   return (
     <div className="list-wrapper">
-      <h3 className="list-title">{list.title}</h3>
+      {list.title ? <h3 className="list-title">{list.title}</h3> : null}
       <ul className="list">
         {list.items.map((item, index) => (
           <li key={index}>
