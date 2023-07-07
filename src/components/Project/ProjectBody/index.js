@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+import React from "react";
 import Col from "react-bootstrap/Col";
 import YoutubeEmbed from "../../Util/YoutubeEmbed";
 import "./style.scss";
@@ -8,10 +6,6 @@ import ImageToExpand from "../../Util/ImageToExpand";
 import List from "../../Util/List";
 
 function ProjectBody({ project }) {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <Col
       id="project-body"

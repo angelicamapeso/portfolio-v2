@@ -1,14 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./style.scss";
 
 export default function AboutLongVersion({ longVersionContent, isPreview }) {
-  const [isReady, setIsReady] = useState(false);
-
-  useEffect(() => {
-    setIsReady(true);
-  }, []);
-
-  if (!isReady || isPreview) {
+  if (isPreview) {
     return null;
   }
 
