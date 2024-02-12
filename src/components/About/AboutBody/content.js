@@ -25,6 +25,17 @@ export const resumeContent = {
   professionalExperience: "1+ Years",
   recentWork: [
     {
+      title: "Full-Stack Engineer",
+      company: "Speer",
+      months: "September 2023 - Present",
+      description: (
+        <p className="recent-work-description">
+          Wrote front-end components in Angular, Typescript and SASS for a web
+          platform
+        </p>
+      ),
+    },
+    {
       title: "Junior Front End Developer",
       company: "Salesfloor",
       months: "May 2022 - June 2023",
