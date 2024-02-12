@@ -76,7 +76,7 @@ export default function ContactBody({ isPreview }) {
           </Button>
           {state.succeeded ? (
             <p className="mt-3">Sent! Thanks for reaching out!</p>
-          ) : state.errors.length > 0 ? (
+          ) : state.errors?.length > 0 ? (
             <p className="mt-3">
               Something went wrong. Please try again later.
             </p>
