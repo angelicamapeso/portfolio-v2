@@ -24,7 +24,7 @@ export const resumeContent = {
     {
       title: "Full-Stack Engineer",
       company: "Speer",
-      months: "September 2023 - Present",
+      months: "September 2023 - June 2024",
       description: (
         <p className="recent-work-description">
           Developed front-end components in React, Angular, Vue, React Native
