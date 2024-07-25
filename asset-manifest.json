@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.21ba2231.css",
-    "main.js": "/portfolio-v2/static/js/main.57aab1a4.js",
-    "static/media/mapesoAngelica_resume2023.pdf": "/portfolio-v2/static/media/mapesoAngelica_resume2023.8adf4acb905a14d51109.pdf",
+    "main.css": "/portfolio-v2/static/css/main.3b5381bc.css",
+    "main.js": "/portfolio-v2/static/js/main.6f90d24c.js",
     "static/media/process_whiteboard.jpg": "/portfolio-v2/static/media/process_whiteboard.58ab7e6ace3747c3cf4b.jpg",
     "static/media/home_iterations.jpg": "/portfolio-v2/static/media/home_iterations.17acf43588c6975a52ce.jpg",
     "static/media/fa-solid-900.svg": "/portfolio-v2/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
@@ -70,11 +69,11 @@
     "static/media/logo_white.svg": "/portfolio-v2/static/media/logo_white.5604b434d467455b07fad249e367c0b9.svg",
     "index.html": "/portfolio-v2/index.html",
     "static/media/arrow_down_white.svg": "/portfolio-v2/static/media/arrow_down_white.6a5a684241dbd0eea082c0081b871dcc.svg",
-    "main.21ba2231.css.map": "/portfolio-v2/static/css/main.21ba2231.css.map",
-    "main.57aab1a4.js.map": "/portfolio-v2/static/js/main.57aab1a4.js.map"
+    "main.3b5381bc.css.map": "/portfolio-v2/static/css/main.3b5381bc.css.map",
+    "main.6f90d24c.js.map": "/portfolio-v2/static/js/main.6f90d24c.js.map"
   },
   "entrypoints": [
-    "static/css/main.21ba2231.css",
-    "static/js/main.57aab1a4.js"
+    "static/css/main.3b5381bc.css",
+    "static/js/main.6f90d24c.js"
   ]
 }
