@@ -76,20 +76,12 @@ export default function AboutShortVersion({ resumeContent, isPreview }) {
           )}
         </div>
       </div>
-      {isPreview ? (
+      {isPreview && (
         <ArrowLink
           text="Learn more about my journey"
           linkTo="/about"
           ariaLabel="View my about page"
         />
-      ) : (
-        <a
-          className="custom-btn btn-dark resume-btn"
-          href={resumeContent.resume}
-        >
-          <i className="far fa-file mr-2" aria-hidden="true"></i>Grab a copy of
-          my Resume
-        </a>
       )}
     </div>
   );

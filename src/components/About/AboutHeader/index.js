@@ -31,8 +31,8 @@ export default function AboutHeader({ isPreview }) {
       </div>
       {isPreview ? (
         <p>
-          Front-end developer devoted to expanding her back-end knowledge,
-          writing clean code and empowering end users.
+          Front-end focused developer devoted to expanding her back-end
+          knowledge, writing clean code and empowering end users.
         </p>
       ) : null}
     </Col>

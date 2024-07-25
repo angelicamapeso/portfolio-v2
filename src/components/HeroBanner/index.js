@@ -15,9 +15,17 @@ export default function HeroBanner() {
           <Logo id="hero-logo" />
         </Col>
         <Col id="introduction" className="hero-col">
-          <h1>Angelica <span id="last-name">Mapeso</span></h1>
-          <p id="current"><span id="role">Front-End Web Developer</span><br />with a <span id="background">background in design</span></p>
-          <p id="full-stack-tag">On the way to full-stack</p>
+          <h1>
+            Angelica <span id="last-name">Mapeso</span>
+          </h1>
+          <p id="current">
+            <span id="role">Full-Stack Developer</span>
+            <br />
+            with a <span id="background">focus on Front-End</span>
+          </p>
+          <p id="full-stack-tag">
+            Passionate about excellent UX and beautiful UI
+          </p>
           <ArrowDown className="arrow" />
         </Col>
       </Row>

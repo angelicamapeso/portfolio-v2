@@ -18,11 +18,8 @@ import {
   FIGMA_TECH,
 } from "../../../projects/graphicDesign_illustration/graphicIllustration_tech";
 
-import Resume from "./mapesoAngelica_resume2023.pdf";
-
 export const resumeContent = {
-  resume: Resume,
-  professionalExperience: "1+ Years",
+  professionalExperience: "2+ Years",
   recentWork: [
     {
       title: "Full-Stack Engineer",
@@ -30,8 +27,10 @@ export const resumeContent = {
       months: "September 2023 - Present",
       description: (
         <p className="recent-work-description">
-          Wrote front-end components in Angular, Typescript and SASS for a web
-          platform
+          Developed front-end components in React, Angular, Vue, React Native
+          and Three.js in TypeScript and Javascript ES6 from Figma mockups for a
+          variety of web/mobile applications to improve user experience and
+          implement bug fixes
         </p>
       ),
     },
@@ -41,8 +40,9 @@ export const resumeContent = {
       months: "May 2022 - June 2023",
       description: (
         <p className="recent-work-description">
-          Maintained and developed new features for Salesfloor's mobile app and
-          web platform with AngularJS and React
+          Improved user experience by modifying front-end components in
+          AngularJS and React for a mobile app and legacy web platform to
+          provide visual feedback for internet latency and network drops
         </p>
       ),
     },
@@ -52,8 +52,9 @@ export const resumeContent = {
       months: "May 2021 - October 2021",
       description: (
         <p className="recent-work-description">
-          Using a node-based system, programmed software that would generate
-          personalized, digital artwork from user input
+          Programmed software in JavaScript by using raw image data and
+          modifying SVGs within a proprietary node-based system to generate
+          personalized, digital artwork from user input in under 1 second
         </p>
       ),
     },
